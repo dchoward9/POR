@@ -24,11 +24,11 @@ A short, 2-minute demonstration of the application's functionality, from the use
 
 ## 📋 Table of Contents
 
-1.  [Business Problem & Solution](#business-problem--solution)
-2.  [Key Technical Features](#key-technical-features)
-3.  [Architectural Highlights](#architectural-highlights)
-4.  [Installation & Usage](#installation--usage)
-5.  [Source Code](#source-code)
+1.  [Business Problem & Solution](#-business-problem--solution)
+2.  [Key Technical Features](#-key-technical-features)
+3.  [Architectural Highlights](#️-architectural-highlights)
+4.  [Installation & Usage](#️-installation--usage)
+5.  [Source Code](#-source-code)
 
 ---
 

@@ -1,0 +1,58 @@
+name: Sync ServiceNow Data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Create data directory
+        run: mkdir -p data
+
+      - name: Fetch Data from ServiceNow (in Parallel)
+        run: |
+          # Define the list of endpoints to fetch.
+          # This makes it easy to add or remove endpoints in one place.
+          endpoints="companies users groups group_members group_roles departments locations tests"
+          
+          echo "--- Starting Parallel Data Fetch for: $endpoints ---"
+          
+          # Loop through each endpoint and start a background download process (&)
+          for endpoint in $endpoints; do
+            echo "Fetching $endpoint..."
+            curl -f -sS \
+              -u "${{ secrets.SN_USER }}:${{ secrets.SN_PASS }}" \
+              -H "Accept: application/json" \
+              "${{ secrets.SN_INSTANCE_URL }}/api/1118046/git_data_explorer/${endpoint}" \
+              > "data/${endpoint}.json" &
+          done
+          
+          # The 'wait' command pauses the script until all background jobs launched in the loop are finished.
+          wait
+          
+          echo "--- All data fetch jobs complete. ---"
+
+      - name: Commit and push if there are changes
+        run: |
+          # Configure git user for the commit
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          
+          # Add all changes in the data directory
+          git add data/
+          
+          # Check if there are any staged changes. If so, commit and push.
+          # This command avoids errors if there are no changes to commit.
+          if ! git diff --staged --quiet; then
+            git commit -m "Automated: Refresh ServiceNow data"
+            git push
+          else
+            echo "No data changes to commit."
+          fi

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Impersonate the user: {{Step 4: Create a User.User}}</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Impersonate manager</notes>
+        <order>24</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 15:14:44</sys_created_on>
+        <sys_id>db087fd59343e210d5ec31697bba10f8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_atf_step_db087fd59343e210d5ec31697bba10f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 15:22:54</sys_updated_on>
+        <table/>
+        <test display_value="POR Happy Path - Standard Approval with Security Task">910bbfc9934f6210d5ec31697bba1098</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=db087fd59343e210d5ec31697bba10f8"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>db087fd59343e210d5ec31697bba10f8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 15:14:44</sys_created_on>
+        <sys_id>2e183bd59343e210d5ec31697bba107a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 15:14:44</sys_updated_on>
+        <value/>
+        <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=db087fd59343e210d5ec31697bba10f8"/>
+    <sys_element_mapping action="DELETE">
+        <field>user</field>
+        <id>db087fd59343e210d5ec31697bba10f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 15:14:44</sys_created_on>
+        <sys_id>aa183bd59343e210d5ec31697bba107a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 15:14:44</sys_updated_on>
+        <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+        <value>{{step['550bbbcd934f6210d5ec31697bba102b'].user}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_atf_step_db087fd59343e210d5ec31697bba10f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Impersonate the user: {{Step 4: Create a User.User}}</description><display_name>Impersonate</display_name><inputs/><inputs/><mugshots_cache_json/><notes>Impersonate manager</notes><order>24</order><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-29 15:14:44</sys_created_on><sys_id>db087fd59343e210d5ec31697bba10f8</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_atf_step_db087fd59343e210d5ec31697bba10f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-29 15:22:54</sys_updated_on><table/><test display_value="POR Happy Path - Standard Approval with Security Task">910bbfc9934f6210d5ec31697bba1098</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=db087fd59343e210d5ec31697bba10f8"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>db087fd59343e210d5ec31697bba10f8</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-29 15:14:44</sys_created_on><sys_id>2e183bd59343e210d5ec31697bba107a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-29 15:14:44</sys_updated_on><value/><variable display_value="User">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=db087fd59343e210d5ec31697bba10f8"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>user</field><id>db087fd59343e210d5ec31697bba10f8</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-29 15:14:44</sys_created_on><sys_id>aa183bd59343e210d5ec31697bba107a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-29 15:14:44</sys_updated_on><table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table><value>{{step['550bbbcd934f6210d5ec31697bba102b'].user}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-127186143</payload_hash>
+        <record_name>Impersonate</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 15:22:54</sys_created_on>
+        <sys_id>42f9b7d99343e210d5ec31697bba10fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19856c7893c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 15:22:54</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>c6f9b7d99643e210d80896cde6966bfc</update_guid>
+        <update_guid_history>c6f9b7d99643e210d80896cde6966bfc:-127186143,12b97399d843e2101dda7594c1208b00:141914240,ad287f19c043e210b30587e75f4a9fe7:-127186143,e6183f19e343e210afd16becdb63eecb:1952562873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 16:15:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0851885a35e6482c820a74ae1159d951</sys_id>
+        <sys_metadata>db087fd59343e210d5ec31697bba10f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_db087fd59343e210d5ec31697bba10f8</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_db087fd59343e210d5ec31697bba10f8">42f9b7d99343e210d5ec31697bba10fd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 16:15:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

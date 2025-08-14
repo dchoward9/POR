@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Read Only Partner Info onLoad Task</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   
+   if (g_form.isNewRecord() || g_user.hasRole('x_1118046_partne_0.admin')) {
+	return false;
+   }
+
+	g_form.setReadOnly('partner_onboarding_request.requested_by', true);
+	g_form.setReadOnly('partner_onboarding_request.sensitive_data_access', true);
+	g_form.setReadOnly('partner_onboarding_request.business_justification', true);
+	g_form.setReadOnly('partner_onboarding_request.partner_full_legal_name', true);
+	g_form.setReadOnly('partner_onboarding_request.partner_contact_information', true);
+	g_form.setReadOnly('partner_onboarding_request.description_of_services', true);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 22:13:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c57b9b3e93122690d5ec31697bba1062</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Read Only Partner Info onLoad Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_script_client_c57b9b3e93122690d5ec31697bba1062</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 01:10:13</sys_updated_on>
+        <table>x_1118046_partne_0_tasks</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_script_client_c57b9b3e93122690d5ec31697bba1062</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;
+    &lt;sys_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;field/&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;Read Only Partner Info onLoad Task&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onLoad() {
+   
+   if (g_form.isNewRecord() || g_user.hasRole('x_1118046_partne_0.admin')) {
+	return false;
+   }
+
+	g_form.setReadOnly('partner_onboarding_request.requested_by', true);
+	g_form.setReadOnly('partner_onboarding_request.sensitive_data_access', true);
+	g_form.setReadOnly('partner_onboarding_request.business_justification', true);
+	g_form.setReadOnly('partner_onboarding_request.partner_full_legal_name', true);
+	g_form.setReadOnly('partner_onboarding_request.partner_contact_information', true);
+	g_form.setReadOnly('partner_onboarding_request.description_of_services', true);
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-06-26 22:13:21&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;c57b9b3e93122690d5ec31697bba1062&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Read Only Partner Info onLoad Task&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Partner Onboarding" source="x_1118046_partne_0"&gt;2ac1af2e931ea290d5ec31697bba10f0&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Partner Onboarding"&gt;2ac1af2e931ea290d5ec31697bba10f0&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_client_c57b9b3e93122690d5ec31697bba1062&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-07-13 01:10:13&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_1118046_partne_0_tasks&lt;/table&gt;
+        &lt;type&gt;onLoad&lt;/type&gt;
+        &lt;ui_type&gt;10&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1188951170</payload_hash>
+        <record_name>Read Only Partner Info onLoad Task</record_name>
+        <reverted_from/>
+        <source>14780c4d93be6650d5ec31697bba1048</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 16:53:40</sys_created_on>
+        <sys_id>5f78008d93be6650d5ec31697bba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1980f019c720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 16:53:40</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>1b78008dd9be66503f019cdf54b471c3</update_guid>
+        <update_guid_history>1b78008dd9be66503f019cdf54b471c3:0,335dda48f2ba62509caa83e37de02670:-1435808040,92fb6c7746aeee100ac88a0df2c2cd51:0,78b92c3371aeee10a33572d19a80a6b4:1899975416,97c53beb336aee1047066bb7e21d108e:0,fd05f76b116aee100b0f66aae16e5f02:1899975416,8ee4f72bd76aee1079a82341dffd31c9:0,08d4bfe7116aee105735e993adbcbc9d:1899975416,e418002ecc266a1033ede8818eb49f07:1066032644,0d7b5f7efa12269003de30c56a5e986f:2025266993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 12:21:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3943b1ab4cfa4071b8a65b51c3e0cad1</sys_id>
+        <sys_metadata>c57b9b3e93122690d5ec31697bba1062</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Read Only Partner Info onLoad Task</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent display_value="Tasks">ba3b31fa931ae290d5ec31697bba1037</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_script_client_c57b9b3e93122690d5ec31697bba1062</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c57b9b3e93122690d5ec31697bba1062">5f78008d93be6650d5ec31697bba10c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 12:21:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

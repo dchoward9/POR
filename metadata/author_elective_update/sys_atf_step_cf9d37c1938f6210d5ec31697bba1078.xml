@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from display_value="Record Insert">c594bec5930b6210d5ec31697bba10f0</copied_from>
+        <description>Insert a record into 'cmn_department' with the following values:
+Name = Test Department
+and Department head = {{Step 9: Create a User.User}}
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Create test department</notes>
+        <order>10</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:00:19</sys_created_on>
+        <sys_id>cf9d37c1938f6210d5ec31697bba1078</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_atf_step_cf9d37c1938f6210d5ec31697bba1078</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:01:56</sys_updated_on>
+        <table>cmn_department</table>
+        <test display_value="Manager - Request Approval">4b9d3b81938f6210d5ec31697bba106c</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=cf9d37c1938f6210d5ec31697bba1078"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>cf9d37c1938f6210d5ec31697bba1078</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:00:19</sys_created_on>
+        <sys_id>079d37c1938f6210d5ec31697bba107a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:00:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>cf9d37c1938f6210d5ec31697bba1078</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:00:19</sys_created_on>
+        <sys_id>439d37c1938f6210d5ec31697bba107a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:00:19</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>cf9d37c1938f6210d5ec31697bba1078</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:00:19</sys_created_on>
+        <sys_id>8b9d37c1938f6210d5ec31697bba107a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:00:19</sys_updated_on>
+        <value>name=Test Department^dept_head={{step['cb9d37c1938f6210d5ec31697bba1072'].user}}^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>cf9d37c1938f6210d5ec31697bba1078</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:00:19</sys_created_on>
+        <sys_id>c79d37c1938f6210d5ec31697bba107a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:00:19</sys_updated_on>
+        <value>cmn_department</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=cf9d37c1938f6210d5ec31697bba1078"/>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>cf9d37c1938f6210d5ec31697bba1078</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:00:19</sys_created_on>
+        <sys_id>8f9d37c1938f6210d5ec31697bba107a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:00:19</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>name=Test Department^dept_head={{step['cb9d37c1938f6210d5ec31697bba1072'].user}}^EQ</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_atf_step_cf9d37c1938f6210d5ec31697bba1078</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from display_value="Record Insert">c594bec5930b6210d5ec31697bba10f0</copied_from><description>Insert a record into 'cmn_department' with the following values:
+Name = Test Department
+and Department head = {{Step 9: Create a User.User}}
+Confirm the record was successfully inserted</description><display_name>Record Insert</display_name><inputs/><inputs/><mugshots_cache_json/><notes>Create test department</notes><order>10</order><step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:00:19</sys_created_on><sys_id>cf9d37c1938f6210d5ec31697bba1078</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Record Insert</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_atf_step_cf9d37c1938f6210d5ec31697bba1078</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:01:56</sys_updated_on><table>cmn_department</table><test display_value="Manager - Request Approval">4b9d3b81938f6210d5ec31697bba106c</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=cf9d37c1938f6210d5ec31697bba1078"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>cf9d37c1938f6210d5ec31697bba1078</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:00:19</sys_created_on><sys_id>079d37c1938f6210d5ec31697bba107a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:00:19</sys_updated_on><value>1</value><variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>cf9d37c1938f6210d5ec31697bba1078</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:00:19</sys_created_on><sys_id>439d37c1938f6210d5ec31697bba107a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:00:19</sys_updated_on><value>record_successfully_inserted</value><variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>cf9d37c1938f6210d5ec31697bba1078</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:00:19</sys_created_on><sys_id>8b9d37c1938f6210d5ec31697bba107a</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:00:19</sys_updated_on><value>name=Test Department^dept_head={{step['cb9d37c1938f6210d5ec31697bba1072'].user}}^EQ</value><variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>cf9d37c1938f6210d5ec31697bba1078</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:00:19</sys_created_on><sys_id>c79d37c1938f6210d5ec31697bba107a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:00:19</sys_updated_on><value>cmn_department</value><variable display_value="Table">90144b535320220002c6435723dc3488</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=cf9d37c1938f6210d5ec31697bba1078"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>field_values</field><id>cf9d37c1938f6210d5ec31697bba1078</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:00:19</sys_created_on><sys_id>8f9d37c1938f6210d5ec31697bba107a</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:00:19</sys_updated_on><table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table><value>name=Test Department^dept_head={{step['cb9d37c1938f6210d5ec31697bba1072'].user}}^EQ</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-411162854</payload_hash>
+        <record_name>Record Insert</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:01:56</sys_created_on>
+        <sys_id>7efd3fc1938f6210d5ec31697bba10ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19852d792670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:01:56</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>f2fd3fc1f58f6210bfc85998d2450aed</update_guid>
+        <update_guid_history>f2fd3fc1f58f6210bfc85998d2450aed:-411162854,5f9d37c1e08f6210d628452bcb472b81:1705520541,cb9d37c1458f621010c199b637cf717c:2123375421</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 16:15:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>6945a7cbe37f465aa7dd4b9fc1fb5e24</sys_id>
+        <sys_metadata>cf9d37c1938f6210d5ec31697bba1078</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_cf9d37c1938f6210d5ec31697bba1078</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_cf9d37c1938f6210d5ec31697bba1078">7efd3fc1938f6210d5ec31697bba10ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 16:15:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Work notes mandatory to close task</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    g_form.setMandatory('work_notes', false);
+    //g_form.setMandatory('assigned_to', false);
+
+    var isActive = g_form.getValue('active');
+
+    if (isActive === false && oldValue != newValue) {
+		alert('isnt active and value is different');
+        g_form.setMandatory('work_notes', true);
+    } else if (isActive === true) {
+
+        var openToClosed = (['1', '2', '-5'].includes(oldValue) && ['3', '4', '7'].includes(newValue));
+
+        var closedToOpen = (['1', '2', '-5'].includes(newValue) && ['3', '4', '7'].includes(oldValue));
+
+        if (openToClosed || closedToOpen) {
+			alert('old value was ' + oldValue + ' and new value was ' + newValue);
+            g_form.setMandatory('work_notes', true);
+            //g_form.setMandatory('assigned_to', true);
+        } else {
+            g_form.setMandatory('work_notes', false);
+
+        }
+    }
+
+    // if old is open and new is closed then mandatory is true
+    // if old is closed and new is open then mandatory is true
+    // if old is closed and new is closed then mandatory is false
+    // if old is open and new is open then mandatory is false
+    // else do nothing
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 11:27:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>92142b8293322e50d5ec31697bba104d</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Work notes mandatory to close task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_script_client_92142b8293322e50d5ec31697bba104d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 13:07:22</sys_updated_on>
+        <table>x_1118046_partne_0_tasks</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_script_client_92142b8293322e50d5ec31697bba104d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;state&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Work notes mandatory to close task&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    g_form.setMandatory('work_notes', false);
+    //g_form.setMandatory('assigned_to', false);
+
+    var isActive = g_form.getValue('active');
+
+    if (isActive === false &amp;&amp; oldValue != newValue) {
+		alert('isnt active and value is different');
+        g_form.setMandatory('work_notes', true);
+    } else if (isActive === true) {
+
+        var openToClosed = (['1', '2', '-5'].includes(oldValue) &amp;&amp; ['3', '4', '7'].includes(newValue));
+
+        var closedToOpen = (['1', '2', '-5'].includes(newValue) &amp;&amp; ['3', '4', '7'].includes(oldValue));
+
+        if (openToClosed || closedToOpen) {
+			alert('old value was ' + oldValue + ' and new value was ' + newValue);
+            g_form.setMandatory('work_notes', true);
+            //g_form.setMandatory('assigned_to', true);
+        } else {
+            g_form.setMandatory('work_notes', false);
+
+        }
+    }
+
+    // if old is open and new is closed then mandatory is true
+    // if old is closed and new is open then mandatory is true
+    // if old is closed and new is closed then mandatory is false
+    // if old is open and new is open then mandatory is false
+    // else do nothing
+
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-19 11:27:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;92142b8293322e50d5ec31697bba104d&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;Work notes mandatory to close task&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Partner Onboarding" source="x_1118046_partne_0"&gt;2ac1af2e931ea290d5ec31697bba10f0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Partner Onboarding"&gt;2ac1af2e931ea290d5ec31697bba10f0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_92142b8293322e50d5ec31697bba104d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-19 13:07:22&lt;/sys_updated_on&gt;&lt;table&gt;x_1118046_partne_0_tasks&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1539535890</payload_hash>
+        <record_name>Work notes mandatory to close task</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 13:07:22</sys_created_on>
+        <sys_id>2b0b3f0293b22e50d5ec31697bba10cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19822cbde940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 13:07:22</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>af0b3f029bb22e50de5c48d53e40a2ce</update_guid>
+        <update_guid_history>af0b3f029bb22e50de5c48d53e40a2ce:-1539535890,e7eabbce9b722e50bb3cb3a03dfb9880:-1144949983,4acaffce62722e504676a8d907dbc205:-1806998966,df6a3f4e04722e50f494b65e911a1e4c:-1198142957,fc1a7bce1d722e5038504ac15cf7ab43:-867415595,35b9378e40722e5068500a766395f00e:-147050441,32f87f4e7d722e50578f2adcdd8c9a7d:-2076789271,4e58bf0eaf722e50dc7ed75d110a7cad:-931547617,7044b3c6ce722e504feadcd2f592ec38:-2073762593,51d373c6f8722e502c9e81ee575597cf:-211310848,c852bfc2bd722e50e9d6e26d4bf4af41:76328039,b8b1bfc22c722e5089b23b5be8f1cd3b:1842310352,b18133c2c5722e50acfb593aee5e2a96:1693254917,9f51bb8281722e506c270079a42a0a6c:-1519002308,4d4e6fcebd322e50f20e9ec9444d3250:-753753488,743e2fce79322e506606c560a8f41cf9:-446886320,e71eaf4ed8322e5047c53ac21d93159f:-2035590352,4addef8ebb322e508a696919f81fd449:-654515494,f28da78e91322e50b77332cca74dc2bc:1279372659,735daf4edf322e504a7ee760ce5dda89:-1413395904,6f1d678e2d322e501db669a30d8c69e3:1367256771,7c4ca34e36322e50a7054a9b96c6e606:-712248556,563c6b0e24322e503f67aee5ad275999:997862474,5bcb6f8a86322e500d7e58cd0c597eb3:-207905051,1daa6f8a71322e5020d36b845f849753:76278985,547a6f4a0e322e50a13a0bb8fdabe60e:-207636735,32a9e34a9a322e50f79c56c5c0b0e82a:1415130440,0b34a7825a322e50509f1febd6796958:1750024898</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 13:07:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>7abb9fd8c9224fc882c3540c7b293c40</sys_id>
+        <sys_metadata>92142b8293322e50d5ec31697bba104d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work notes mandatory to close task</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent display_value="Tasks">ba3b31fa931ae290d5ec31697bba1037</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_script_client_92142b8293322e50d5ec31697bba104d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_92142b8293322e50d5ec31697bba104d">2b0b3f0293b22e50d5ec31697bba10cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 13:07:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

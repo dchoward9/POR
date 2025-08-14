@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4122d5f293aeaa10d5ec31697bba10fc" sys_domain="global" table="x_1118046_partne_0_requests" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 22:29:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>892219f293aeaa10d5ec31697bba1025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1118046_partne_0_requests" name="x_1118046_partne_0_requests" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">4122d5f293aeaa10d5ec31697bba10fc</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1118046_partne_0_requests" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">0922d5f293aeaa10d5ec31697bba10f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 22:29:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 22:29:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>052219f293aeaa10d5ec31697bba102a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1118046_partne_0_requests" name="x_1118046_partne_0_requests" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">4122d5f293aeaa10d5ec31697bba10fc</sys_ui_form>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_1118046_partne_0_requests" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">0122d5f293aeaa10d5ec31697bba10fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 22:38:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1118046_partne_0_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 22:29:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4122d5f293aeaa10d5ec31697bba10fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1118046_partne_0_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4122d5f293aeaa10d5ec31697bba10fc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 22:29:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Approval" name="approval">0cebef090a0006d40188d968934d3e9a</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

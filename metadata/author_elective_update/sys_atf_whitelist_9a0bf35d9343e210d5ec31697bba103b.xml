@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_whitelist">
+    <sys_atf_whitelist action="DELETE">
+        <active>true</active>
+        <description/>
+        <error_location>client_error</error_location>
+        <error_message>Invalid query string received</error_message>
+        <report_level>warning</report_level>
+        <sys_class_name>sys_atf_whitelist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 15:27:39</sys_created_on>
+        <sys_id>9a0bf35d9343e210d5ec31697bba103b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Invalid query string received</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_atf_whitelist_9a0bf35d9343e210d5ec31697bba103b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 15:30:59</sys_updated_on>
+        <test/>
+    </sys_atf_whitelist>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_atf_whitelist_9a0bf35d9343e210d5ec31697bba103b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_whitelist"><sys_atf_whitelist action="INSERT_OR_UPDATE"><active>true</active><description/><error_location>client_error</error_location><error_message>Invalid query string received</error_message><report_level>warning</report_level><sys_class_name>sys_atf_whitelist</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-29 15:27:39</sys_created_on><sys_id>9a0bf35d9343e210d5ec31697bba103b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Invalid query string received</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_atf_whitelist_9a0bf35d9343e210d5ec31697bba103b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-29 15:30:59</sys_updated_on><test/></sys_atf_whitelist></record_update>]]></payload>
+        <payload_hash>787613966</payload_hash>
+        <record_name>Invalid query string received</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 15:30:59</sys_created_on>
+        <sys_id>a4dbff5d9343e210d5ec31697bba10cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19856cef1540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 15:30:59</sys_updated_on>
+        <type>Allowed Error</type>
+        <update_guid>2cdbff5da143e21000199056096ebacc</update_guid>
+        <update_guid_history>2cdbff5da143e21000199056096ebacc:787613966,7f0b335d7743e210e3bb92f8b8c6eb17:-1206923114</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 17:16:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_whitelist">sys_atf_whitelist</sys_db_object>
+        <sys_id>3eb216e667274d41952ac1e2fc008381</sys_id>
+        <sys_metadata>9a0bf35d9343e210d5ec31697bba103b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Invalid query string received</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_atf_whitelist_9a0bf35d9343e210d5ec31697bba103b</sys_update_name>
+        <sys_update_version display_value="sys_atf_whitelist_9a0bf35d9343e210d5ec31697bba103b">a4dbff5d9343e210d5ec31697bba10cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 17:16:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="gsw_status_of_content" version="2" view="exp_d801a8b13938f2e10d5ec31697bba10b3">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>best_practice_allowed_ever</element>
+            <list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_id>801a0f13938f2e10d5ec31697bba1055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>checksum</element>
+            <list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_id>841a0f13938f2e10d5ec31697bba1055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>content</element>
+            <list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_id>881a0f13938f2e10d5ec31697bba1055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>effective_weight</element>
+            <list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_id>8c1a0f13938f2e10d5ec31697bba1055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>more_info_visited</element>
+            <list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_id>801a0f13938f2e10d5ec31697bba1056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>previous_status</element>
+            <list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_id>841a0f13938f2e10d5ec31697bba1056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>progress</element>
+            <list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_id>881a0f13938f2e10d5ec31697bba1056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>related_log_entry</element>
+            <list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_id>8c1a0f13938f2e10d5ec31697bba1056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_id>801a0f13938f2e10d5ec31697bba1057</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_scope</element>
+            <list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_id>841a0f13938f2e10d5ec31697bba1057</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_id>881a0f13938f2e10d5ec31697bba1057</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>gsw_status_of_content</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>441a0f13938f2e10d5ec31697bba1054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>gsw_status_of_content</sys_name>
+            <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+            <sys_update_name>sys_ui_list_gsw_status_of_content_exp_d801a8b13938f2e10d5ec31697bba10b3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Exp_d801a8b13938f2e10d5ec31697bba10b3" name="exp_d801a8b13938f2e10d5ec31697bba10b3">c81a8b13938f2e10d5ec31697bba10b4</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_ui_list_gsw_status_of_content_exp_d801a8b13938f2e10d5ec31697bba10b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="gsw_status_of_content" version="2" view="exp_d801a8b13938f2e10d5ec31697bba10b3"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>best_practice_allowed_ever</element><list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>801a0f13938f2e10d5ec31697bba1055</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>checksum</element><list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>841a0f13938f2e10d5ec31697bba1055</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>content</element><list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>881a0f13938f2e10d5ec31697bba1055</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>effective_weight</element><list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>8c1a0f13938f2e10d5ec31697bba1055</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>more_info_visited</element><list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>801a0f13938f2e10d5ec31697bba1056</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>previous_status</element><list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>841a0f13938f2e10d5ec31697bba1056</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>progress</element><list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>881a0f13938f2e10d5ec31697bba1056</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>related_log_entry</element><list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id><max_value>false</max_value><min_value>false</min_value><position>7</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>8c1a0f13938f2e10d5ec31697bba1056</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>status</element><list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id><max_value>false</max_value><min_value>false</min_value><position>8</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>801a0f13938f2e10d5ec31697bba1057</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_scope</element><list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id><max_value>false</max_value><min_value>false</min_value><position>9</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>841a0f13938f2e10d5ec31697bba1057</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_on</element><list_id display_value="gsw_status_of_content" element="NULL" name="gsw_status_of_content" parent="NULL" relationship="NULL" sys_domain="global" view="c81a8b13938f2e10d5ec31697bba10b4">441a0f13938f2e10d5ec31697bba1054</list_id><max_value>false</max_value><min_value>false</min_value><position>10</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>881a0f13938f2e10d5ec31697bba1057</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>gsw_status_of_content</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>441a0f13938f2e10d5ec31697bba1054</sys_id><sys_mod_count>0</sys_mod_count><sys_name>gsw_status_of_content</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_ui_list_gsw_status_of_content_exp_d801a8b13938f2e10d5ec31697bba10b3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on><sys_user/><view display_value="Exp_d801a8b13938f2e10d5ec31697bba10b3" name="exp_d801a8b13938f2e10d5ec31697bba10b3">c81a8b13938f2e10d5ec31697bba10b4</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1623041852</payload_hash>
+        <record_name>Guided Setup Content Status</record_name>
+        <reverted_from/>
+        <source>4aeaf25b930f2e10d5ec31697bba1091</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+        <sys_id>8c1a0f13938f2e10d5ec31697bba105a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1987607e8670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>041a0f133b8f2e108a33e90ad0c71a5a</update_guid>
+        <update_guid_history>041a0f133b8f2e108a33e90ad0c71a5a:-1623041852</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 17:10:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>159a0191141c42a592457267f1eca1c1</sys_id>
+        <sys_metadata>441a0f13938f2e10d5ec31697bba1054</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gsw_status_of_content</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent display_value="Guided Setup Content Status">7ffa14e39824221055904c91e2b6545a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_ui_list_gsw_status_of_content_exp_d801a8b13938f2e10d5ec31697bba10b3</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_gsw_status_of_content_exp_d801a8b13938f2e10d5ec31697bba10b3">8c1a0f13938f2e10d5ec31697bba105a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 17:10:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

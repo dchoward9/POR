@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from display_value="POR ATF Template">93e1b205930b6210d5ec31697bba1098</copied_from>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>POR Happy Path - Standard Approval with Security Task</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 20:48:59</sys_created_on>
+        <sys_id>910bbfc9934f6210d5ec31697bba1098</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>POR Happy Path - Standard Approval with Security Task</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_atf_test_910bbfc9934f6210d5ec31697bba1098</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 15:10:21</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=910bbfc9934f6210d5ec31697bba1098"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_atf_test_910bbfc9934f6210d5ec31697bba1098</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="POR ATF Template">93e1b205930b6210d5ec31697bba1098</copied_from><description/><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>POR Happy Path - Standard Approval with Security Task</name><parameters/><remember/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 20:48:59</sys_created_on><sys_id>910bbfc9934f6210d5ec31697bba1098</sys_id><sys_mod_count>2</sys_mod_count><sys_name>POR Happy Path - Standard Approval with Security Task</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_atf_test_910bbfc9934f6210d5ec31697bba1098</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-29 15:10:21</sys_updated_on><test_origin>manual</test_origin></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=910bbfc9934f6210d5ec31697bba1098"/></record_update>]]></payload>
+        <payload_hash>270066850</payload_hash>
+        <record_name>POR Happy Path - Standard Approval with Security Task</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 15:10:21</sys_created_on>
+        <sys_id>a217b3d59343e210d5ec31697bba10cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19856bc0f120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 15:10:21</sys_updated_on>
+        <type>Test</type>
+        <update_guid>a617b3d54143e21092bf302b8077f0cb</update_guid>
+        <update_guid_history>a617b3d54143e21092bf302b8077f0cb:270066850,59cc7f41bc8f621062107b84bdd59995:37598306,950bbfc92a4f6210ca729d9ecfc3b19c:-2022884414</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 16:15:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>0636e1a973f34862834250e915210a64</sys_id>
+        <sys_metadata>910bbfc9934f6210d5ec31697bba1098</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POR Happy Path - Standard Approval with Security Task</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_atf_test_910bbfc9934f6210d5ec31697bba1098</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_910bbfc9934f6210d5ec31697bba1098">a217b3d59343e210d5ec31697bba10cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 16:15:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

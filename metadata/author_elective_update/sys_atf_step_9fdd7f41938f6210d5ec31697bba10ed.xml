@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Generate string of length: 10</description>
+        <display_name>Generate Random String</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Generate random string for PARTREQ fields</notes>
+        <order>12</order>
+        <step_config display_value="Generate Random String">263313e4c3123300eaac11fe81d3aef9</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:01:55</sys_created_on>
+        <sys_id>9fdd7f41938f6210d5ec31697bba10ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generate Random String</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_atf_step_9fdd7f41938f6210d5ec31697bba10ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:01:55</sys_updated_on>
+        <table/>
+        <test display_value="Manager - Request Approval">4b9d3b81938f6210d5ec31697bba106c</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=9fdd7f41938f6210d5ec31697bba10ed"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>9fdd7f41938f6210d5ec31697bba10ed</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:01:56</sys_created_on>
+        <sys_id>bafd3fc1938f6210d5ec31697bba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:01:56</sys_updated_on>
+        <value>10</value>
+        <variable display_value="Length">594393e4c3123300eaac11fe81d3aef0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_263313e4c3123300eaac11fe81d3aef9^id=9fdd7f41938f6210d5ec31697bba10ed"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_atf_step_9fdd7f41938f6210d5ec31697bba10ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Generate string of length: 10</description><display_name>Generate Random String</display_name><inputs/><mugshots_cache_json/><notes>Generate random string for PARTREQ fields</notes><order>12</order><step_config display_value="Generate Random String">263313e4c3123300eaac11fe81d3aef9</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:01:55</sys_created_on><sys_id>9fdd7f41938f6210d5ec31697bba10ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Generate Random String</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_atf_step_9fdd7f41938f6210d5ec31697bba10ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:01:55</sys_updated_on><table/><test display_value="Manager - Request Approval">4b9d3b81938f6210d5ec31697bba106c</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=9fdd7f41938f6210d5ec31697bba10ed"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>9fdd7f41938f6210d5ec31697bba10ed</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:01:56</sys_created_on><sys_id>bafd3fc1938f6210d5ec31697bba10ee</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:01:56</sys_updated_on><value>10</value><variable display_value="Length">594393e4c3123300eaac11fe81d3aef0</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_263313e4c3123300eaac11fe81d3aef9^id=9fdd7f41938f6210d5ec31697bba10ed"/></record_update>]]></payload>
+        <payload_hash>-1480808900</payload_hash>
+        <record_name>Generate Random String</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:01:56</sys_created_on>
+        <sys_id>3efd3fc1938f6210d5ec31697bba10f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19852d7928b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:01:56</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>32fd3fc1128f621037006674db44c4f0</update_guid>
+        <update_guid_history>32fd3fc1128f621037006674db44c4f0:-1480808900</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 16:15:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>7a684c34711c4674b305e5ce6f50e2a4</sys_id>
+        <sys_metadata>9fdd7f41938f6210d5ec31697bba10ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generate Random String</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_9fdd7f41938f6210d5ec31697bba10ed</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_9fdd7f41938f6210d5ec31697bba10ed">3efd3fc1938f6210d5ec31697bba10f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 16:15:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

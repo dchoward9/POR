@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>exp_d801a8b13938f2e10d5ec31697bba10b3</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+        <sys_id>c81a8b13938f2e10d5ec31697bba10b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Exp_d801a8b13938f2e10d5ec31697bba10b3</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_ui_view_c81a8b13938f2e10d5ec31697bba10b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        <title>Exp_d801a8b13938f2e10d5ec31697bba10b3</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_ui_view_c81a8b13938f2e10d5ec31697bba10b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>exp_d801a8b13938f2e10d5ec31697bba10b3</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:01:26</sys_created_on><sys_id>c81a8b13938f2e10d5ec31697bba10b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Exp_d801a8b13938f2e10d5ec31697bba10b3</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_ui_view_c81a8b13938f2e10d5ec31697bba10b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:01:26</sys_updated_on><title>Exp_d801a8b13938f2e10d5ec31697bba10b3</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>-960312452</payload_hash>
+        <record_name>Exp_d801a8b13938f2e10d5ec31697bba10b3</record_name>
+        <reverted_from/>
+        <source>4aeaf25b930f2e10d5ec31697bba1091</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 17:01:26</sys_created_on>
+        <sys_id>0c1a0f13938f2e10d5ec31697bba1052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1987607e8010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 17:01:26</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>cc1a0f13808f2e10b119936b57d02b51</update_guid>
+        <update_guid_history>cc1a0f13808f2e10b119936b57d02b51:-960312452</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 17:10:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>27b086ddce81430bb6cf168c2b5d5b59</sys_id>
+        <sys_metadata>c81a8b13938f2e10d5ec31697bba10b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Exp_d801a8b13938f2e10d5ec31697bba10b3</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_ui_view_c81a8b13938f2e10d5ec31697bba10b4</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_c81a8b13938f2e10d5ec31697bba10b4">0c1a0f13938f2e10d5ec31697bba1052</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 17:10:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

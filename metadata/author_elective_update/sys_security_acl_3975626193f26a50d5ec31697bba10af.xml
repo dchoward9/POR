@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow read for records in x_1118046_partne_0_requests, if the ACL script returns true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1118046_partne_0_requests</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[// if (
+//     (current.requested_for == gs.getUserID()) || // the request was submitted for this user
+//     (gs.hasRole('x_1118046_partne_0.viewer')) || // user has app viewer role
+// 	(current.requested_for.manager == gs.getUserID()) || // user is requested for's manager
+// 	(current.requested_for.department.dept_head == gs.getUserID()) // user is requested for's department head
+// ) {
+//     answer = true;
+// }
+
+// test where any of these conditions return null, such as department doesn't exist, manager doesn't exist
+// consider explicit answer = false for else statement
+
+ answer = false;
+
+ // Get current user ID once
+ var userID = gs.getUserID();
+
+ // Defensive checks
+ var requestedFor = current.requested_for;
+//  var requestedForManager = requestedFor.manager;
+//  var requestedForDept = requestedFor.department;
+//  var deptHead = requestedForDept ? requestedForDept.dept_head : null;
+
+ // Check access conditions
+ var isRequestedFor = requestedFor == userID;
+ var isViewer = gs.hasRole('x_1118046_partne_0.viewer');
+//  var isManager = requestedForManager == userID;
+//  var isDeptHead = deptHead == userID;
+
+ // Grant access if any condition is true
+ if (isRequestedFor || isViewer) {
+     answer = true;
+ }]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-17 17:36:50</sys_created_on>
+        <sys_id>3975626193f26a50d5ec31697bba10af</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1118046_partne_0_requests</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_security_acl_3975626193f26a50d5ec31697bba10af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-17 20:35:26</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_security_acl_3975626193f26a50d5ec31697bba10af</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow read for records in x_1118046_partne_0_requests, if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_1118046_partne_0_requests&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[// if (
+//     (current.requested_for == gs.getUserID()) || // the request was submitted for this user
+//     (gs.hasRole('x_1118046_partne_0.viewer')) || // user has app viewer role
+// 	(current.requested_for.manager == gs.getUserID()) || // user is requested for's manager
+// 	(current.requested_for.department.dept_head == gs.getUserID()) // user is requested for's department head
+// ) {
+//     answer = true;
+// }
+
+// test where any of these conditions return null, such as department doesn't exist, manager doesn't exist
+// consider explicit answer = false for else statement
+
+ answer = false;
+
+ // Get current user ID once
+ var userID = gs.getUserID();
+
+ // Defensive checks
+ var requestedFor = current.requested_for;
+//  var requestedForManager = requestedFor.manager;
+//  var requestedForDept = requestedFor.department;
+//  var deptHead = requestedForDept ? requestedForDept.dept_head : null;
+
+ // Check access conditions
+ var isRequestedFor = requestedFor == userID;
+ var isViewer = gs.hasRole('x_1118046_partne_0.viewer');
+//  var isManager = requestedForManager == userID;
+//  var isDeptHead = deptHead == userID;
+
+ // Grant access if any condition is true
+ if (isRequestedFor || isViewer) {
+     answer = true;
+ }]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-17 17:36:50&lt;/sys_created_on&gt;&lt;sys_id&gt;3975626193f26a50d5ec31697bba10af&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1118046_partne_0_requests&lt;/sys_name&gt;&lt;sys_package display_value="Partner Onboarding" source="x_1118046_partne_0"&gt;2ac1af2e931ea290d5ec31697bba10f0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Partner Onboarding"&gt;2ac1af2e931ea290d5ec31697bba10f0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_3975626193f26a50d5ec31697bba10af&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-17 20:35:26&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1035922071</payload_hash>
+        <record_name>x_1118046_partne_0_requests</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-17 20:35:27</sys_created_on>
+        <sys_id>636ec3e593b66a50d5ec31697bba10e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1981a195f030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-17 20:35:27</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>636e8fa57cb66a5057475f577a7a32bb</update_guid>
+        <update_guid_history>636e8fa57cb66a5057475f577a7a32bb:-1035922071,18c52a6117f26a50e9e38a327530854f:935828464,9785ee219ef26a5060acca010bacee96:1604385818</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-17 20:40:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>2756fcc383f0477e8e405880537d49a4</sys_id>
+        <sys_metadata>3975626193f26a50d5ec31697bba10af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1118046_partne_0_requests</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent display_value="x_1118046_partne_0_requests">c5eb607793aeee10d5ec31697bba108d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_3975626193f26a50d5ec31697bba10af</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_3975626193f26a50d5ec31697bba10af">636ec3e593b66a50d5ec31697bba10e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-17 20:40:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

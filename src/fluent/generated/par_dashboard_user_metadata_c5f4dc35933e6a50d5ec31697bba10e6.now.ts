@@ -1,0 +1,37 @@
+import { Record } from '@servicenow/sdk/core'
+
+export default Record({
+    $id: 'c5f4dc35933e6a50d5ec31697bba10e6',
+    table: 'par_dashboard_user_metadata',
+    data: {
+        background_color: '--now-color_background--primary',
+        cache_expiration_time: 24,
+        created_by_user: '6816f79cc0a8016401c5a33be04be441',
+        created_on: '2025-07-18 01:43:34',
+        dashboard: '89f4dc35933e6a50d5ec31697bba10df',
+        edit_locked:
+            '{"sysId":"6816f79cc0a8016401c5a33be04be441","name":"Dominik Howard","avatar":"a5d3c898c3222010ae17dd981840dd8b.iix?t=small","lockedOn":"1752938776735"}',
+        enable_data_cache: false,
+        include_custom_insights: true,
+        include_key_contributors: true,
+        include_kpi_signals: true,
+        include_predictive_target: true,
+        include_predictive_thresholds: true,
+        include_process_mining: true,
+        include_severity: true,
+        include_target: true,
+        include_thresholds: true,
+        include_trends: true,
+        include_widget_notification: true,
+        last_updated_on: '2025-07-18 02:03:44',
+        po_project_id_list: '[]',
+        refresh_information: false,
+        refresh_interval: -1,
+        schedule_repetition: false,
+        show_insights_panel: true,
+        sys_domain: 'global',
+        sys_domain_path: '/',
+        updated_by_user: '6816f79cc0a8016401c5a33be04be441',
+        use_custom_tab_colors: false,
+    },
+})

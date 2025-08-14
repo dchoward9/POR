@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1118046_partne_0.CommentSyncUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CommentSyncUtil</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CommentSyncUtil = Class.create();
+CommentSyncUtil.prototype = {
+    initialize: function() {},
+
+    /**
+     * Synchronizes comments from a source record to a target record.
+     * @param {GlideRecord} sourceRecord - The record where the comment was just added.
+     * @param {GlideRecord} targetRecord - The record to which the comment should be copied.
+     */
+    syncComments: function(sourceRecord, targetRecord) {
+        if (!sourceRecord || !targetRecord) {
+            gs.warn("CommentSyncUtil: Source or target record is invalid.");
+            return;
+        }
+
+        // Get the most recent journal entry (the comment just added)
+        var latestComment = sourceRecord.comments.getJournalEntry(1);
+
+        // Update the target record's comments with the new entry
+        targetRecord.comments = latestComment;
+        targetRecord.update();
+    },
+
+    type: 'CommentSyncUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-09 16:01:55</sys_created_on>
+        <sys_id>d13c60c993db2650d5ec31697bba104a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CommentSyncUtil</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_script_include_d13c60c993db2650d5ec31697bba104a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-09 16:01:55</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_script_include_d13c60c993db2650d5ec31697bba104a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1118046_partne_0.CommentSyncUtil&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;CommentSyncUtil&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var CommentSyncUtil = Class.create();
+CommentSyncUtil.prototype = {
+    initialize: function() {},
+
+    /**
+     * Synchronizes comments from a source record to a target record.
+     * @param {GlideRecord} sourceRecord - The record where the comment was just added.
+     * @param {GlideRecord} targetRecord - The record to which the comment should be copied.
+     */
+    syncComments: function(sourceRecord, targetRecord) {
+        if (!sourceRecord || !targetRecord) {
+            gs.warn("CommentSyncUtil: Source or target record is invalid.");
+            return;
+        }
+
+        // Get the most recent journal entry (the comment just added)
+        var latestComment = sourceRecord.comments.getJournalEntry(1);
+
+        // Update the target record's comments with the new entry
+        targetRecord.comments = latestComment;
+        targetRecord.update();
+    },
+
+    type: 'CommentSyncUtil'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-09 16:01:55&lt;/sys_created_on&gt;&lt;sys_id&gt;d13c60c993db2650d5ec31697bba104a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;CommentSyncUtil&lt;/sys_name&gt;&lt;sys_package display_value="Partner Onboarding" source="x_1118046_partne_0"&gt;2ac1af2e931ea290d5ec31697bba10f0&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Partner Onboarding"&gt;2ac1af2e931ea290d5ec31697bba10f0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_d13c60c993db2650d5ec31697bba104a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-09 16:01:55&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1291028229</payload_hash>
+        <record_name>CommentSyncUtil</record_name>
+        <reverted_from/>
+        <source>4aeaf25b930f2e10d5ec31697bba1091</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-09 16:01:56</sys_created_on>
+        <sys_id>156cac8993db2650d5ec31697bba102a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1988f913bce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-09 16:01:56</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>196cac8954db2650474270ef0d80fd29</update_guid>
+        <update_guid_history>196cac8954db2650474270ef0d80fd29:1291028229</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-09 18:40:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>370c1034e9874ef6b412298ed61a70b1</sys_id>
+        <sys_metadata>d13c60c993db2650d5ec31697bba104a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CommentSyncUtil</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_script_include_d13c60c993db2650d5ec31697bba104a</sys_update_name>
+        <sys_update_version display_value="sys_script_include_d13c60c993db2650d5ec31697bba104a">156cac8993db2650d5ec31697bba102a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-09 18:40:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

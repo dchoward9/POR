@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Partner Onboarding Request">cab0b53e93d6e290d5ec31697bba10fc</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 21:31:41</sys_created_on>
+        <sys_id>bae15f7e93dee290d5ec31697bba1063</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Partner Onboarding Request.Any User</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_bae15f7e93dee290d5ec31697bba1063</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 21:31:41</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_bae15f7e93dee290d5ec31697bba1063</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Partner Onboarding Request">cab0b53e93d6e290d5ec31697bba10fc</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-26 21:31:41</sys_created_on><sys_id>bae15f7e93dee290d5ec31697bba1063</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Partner Onboarding Request.Any User</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_bae15f7e93dee290d5ec31697bba1063</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-26 21:31:41</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1340241832</payload_hash>
+        <record_name>Partner Onboarding Request.Any User</record_name>
+        <reverted_from/>
+        <source>b4d8253293d6e290d5ec31697bba1094</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 21:31:42</sys_created_on>
+        <sys_id>c3e11bfe93dee290d5ec31697bba10d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197ae27547a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 21:31:42</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>c7e11bfe69dee2908d4efa2a884cf0cf</update_guid>
+        <update_guid_history>c7e11bfe69dee2908d4efa2a884cf0cf:1340241832</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Partner Onboarding Request.Any User">e9129ffe93dee290d5ec31697bba103e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 21:32:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>01a67b650b894f56bb11d9c4ebba5b59</sys_id>
+        <sys_metadata>bae15f7e93dee290d5ec31697bba1063</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Partner Onboarding Request.Any User</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_bae15f7e93dee290d5ec31697bba1063</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_bae15f7e93dee290d5ec31697bba1063">c3e11bfe93dee290d5ec31697bba10d0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 21:32:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

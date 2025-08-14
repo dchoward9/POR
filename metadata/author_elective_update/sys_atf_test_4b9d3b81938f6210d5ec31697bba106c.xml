@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Manager - Request Approval</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:00:19</sys_created_on>
+        <sys_id>4b9d3b81938f6210d5ec31697bba106c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Manager - Request Approval</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_atf_test_4b9d3b81938f6210d5ec31697bba106c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:00:31</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=4b9d3b81938f6210d5ec31697bba106c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_atf_test_4b9d3b81938f6210d5ec31697bba106c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Manager - Request Approval</name><parameters/><remember/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:00:19</sys_created_on><sys_id>4b9d3b81938f6210d5ec31697bba106c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Manager - Request Approval</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_atf_test_4b9d3b81938f6210d5ec31697bba106c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:00:31</sys_updated_on><test_origin>manual</test_origin></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=4b9d3b81938f6210d5ec31697bba106c"/></record_update>]]></payload>
+        <payload_hash>-2011692520</payload_hash>
+        <record_name>Manager - Request Approval</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 16:15:44</sys_created_on>
+        <sys_id>14160c2d9383e210d5ec31697bba10bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19856f7e9ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 16:15:44</sys_updated_on>
+        <type>Test</type>
+        <update_guid>10160c2d6783e210f4ed5d5d041ccabf</update_guid>
+        <update_guid_history>10160c2d6783e210f4ed5d5d041ccabf:0,caadbf41808f6210adc9ab2a9cc4356b:1840419896,4b9d37c1cc8f62106747a422afa20930:-2022884414</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 16:15:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>4755aa430bd94c2a91d32e66db93ab04</sys_id>
+        <sys_metadata>4b9d3b81938f6210d5ec31697bba106c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager - Request Approval</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_atf_test_4b9d3b81938f6210d5ec31697bba106c</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_4b9d3b81938f6210d5ec31697bba106c">14160c2d9383e210d5ec31697bba10bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 16:15:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

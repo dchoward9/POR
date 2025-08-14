@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>partner_onboarding_vs</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 14:33:37</sys_created_on>
+        <sys_id>1f2239be93d6e290d5ec31697bba1082</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Partner Onboarding VS</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>item_option_new_set_1f2239be93d6e290d5ec31697bba1082</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:27:38</sys_updated_on>
+        <title>Partner Onboarding VS</title>
+        <type>one_to_one</type>
+        <version>27</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>item_option_new_set_1f2239be93d6e290d5ec31697bba1082</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>false</display_title><internal_name>partner_onboarding_vs</internal_name><layout>normal</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-26 14:33:37</sys_created_on><sys_id>1f2239be93d6e290d5ec31697bba1082</sys_id><sys_mod_count>27</sys_mod_count><sys_name>Partner Onboarding VS</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>item_option_new_set_1f2239be93d6e290d5ec31697bba1082</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-06-26 15:27:38</sys_updated_on><title>Partner Onboarding VS</title><type>one_to_one</type><version>27</version><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>1022741744</payload_hash>
+        <record_name>Partner Onboarding VS</record_name>
+        <reverted_from/>
+        <source>b4d8253293d6e290d5ec31697bba1094</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-06-26 15:27:38</sys_created_on>
+        <sys_id>3d9e7132935ae290d5ec31697bba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197acda04370000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:27:38</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>b19e71322d5ae290758e1c6a120a4a24</update_guid>
+        <update_guid_history>b19e71322d5ae290758e1c6a120a4a24:1022741744,f59e7132275ae29004d3c6b235bdf10d:1231440047,3d9e3132825ae290f5246b0aef3a35f6:1440138350,719e31324d5ae2909f7bff89f899c2e0:1648836653,759e3dfeb51ae2907b7b11614a2a138f:1857534956,d63eb5fe421ae290062a24fce22806f0:2066233259,803eb5fe531ae2901a2bee87ea7a0b1c:-2020035734,bf1ef1fe911ae29014c322d044783ce3:-1811337431,9f1ef1fe301ae290c86ff472804725b1:-1514942061,3a1ef1fe581ae290a1015c1b14ae715a:-1306243758,ee1ef1fe141ae29096125259824f3627:-1097545455,791e31fe641ae29084701df9de7fcb2b:-888847152,f254f9725e1ae290c0797f23adb90604:-680148849,7254b972681ae290a91e3952c73543fa:-471450546,ee54b972671ae290239ebb2688f51bef:-262752243,6e54b9729b1ae2903055283e64b7a1e5:-54053940,ea54b972b01ae290e6ea704e466ce7db:154644363,bc34b572e11ae2905b4f8c1e595c7ced:363342666,a8047172be1ae2903d85ffe298af5c0d:473724396,e6d37d32811ae290faa682004a3c6f95:682422699,0ba379326c1ae2900424d1a8176670ce:891121002,d043fdfe2ed6e29090e5f7bb16a6a27f:1099819305,77133dfe6ad6e290e225e581da6d837c:1308517608,6603b9feced6e29076db32a532d720ee:1517215911,7df2fdbeacd6e290d01626e90c9427be:1725914214,1dd2bdbe78d6e2907bfa539f9148e55e:1934612517,df6239be11d6e290538186b054a5ee9b:2143310820,ba32b97e92d6e29029a8ad382c5e3c9a:2074001927</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Partner Onboarding VS">c8693f1a93e26a10d5ec31697bba10fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-07-07 21:22:49</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>182ef2af976149f086b5ded35baa5440</sys_id>
+        <sys_metadata>1f2239be93d6e290d5ec31697bba1082</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Partner Onboarding VS</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>item_option_new_set_1f2239be93d6e290d5ec31697bba1082</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_1f2239be93d6e290d5ec31697bba1082">3d9e7132935ae290d5ec31697bba1024</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-07-07 21:22:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

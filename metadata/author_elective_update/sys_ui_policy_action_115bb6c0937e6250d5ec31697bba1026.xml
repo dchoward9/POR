@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>partner_onboarding_request.sensitive_data_access</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 03:21:07</sys_created_on>
+        <sys_id>115bb6c0937e6250d5ec31697bba1026</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>partner_onboarding_request.sensitive_data_access</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_ui_policy_action_115bb6c0937e6250d5ec31697bba1026</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 03:21:30</sys_updated_on>
+        <table>x_1118046_partne_0_tasks</table>
+        <ui_policy display_value="Partner Information read-only unless new record">8badce36939ae290d5ec31697bba101e</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=115bb6c0937e6250d5ec31697bba1026"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_ui_policy_action_115bb6c0937e6250d5ec31697bba1026</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>partner_onboarding_request.sensitive_data_access</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-13 03:21:07</sys_created_on><sys_id>115bb6c0937e6250d5ec31697bba1026</sys_id><sys_mod_count>1</sys_mod_count><sys_name>partner_onboarding_request.sensitive_data_access</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_ui_policy_action_115bb6c0937e6250d5ec31697bba1026</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-13 03:21:30</sys_updated_on><table>x_1118046_partne_0_tasks</table><ui_policy display_value="Partner Information read-only unless new record">8badce36939ae290d5ec31697bba101e</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=115bb6c0937e6250d5ec31697bba1026"/></record_update>]]></payload>
+        <payload_hash>41389079</payload_hash>
+        <record_name>partner_onboarding_request.sensitive_data_access</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 03:21:30</sys_created_on>
+        <sys_id>4f6b7e80937e6250d5ec31697bba10b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19801cd56500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 03:21:30</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>c36b7e80a37e6250ea0b0f2c254484b0</update_guid>
+        <update_guid_history>c36b7e80a37e6250ea0b0f2c254484b0:41389079,155bf6c0817e62501f19f073f32d1ca9:-102896520</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 03:26:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>107d0597f6324814bf2a6e2bb840bf90</sys_id>
+        <sys_metadata>115bb6c0937e6250d5ec31697bba1026</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>partner_onboarding_request.sensitive_data_access</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent display_value="Task - isNewRecord - Adjust fields">8badce36939ae290d5ec31697bba101e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_115bb6c0937e6250d5ec31697bba1026</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_115bb6c0937e6250d5ec31697bba1026">4f6b7e80937e6250d5ec31697bba10b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 03:26:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

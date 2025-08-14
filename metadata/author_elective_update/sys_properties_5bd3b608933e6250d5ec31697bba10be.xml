@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Tasks activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_1118046_partne_0_tasks_activity.fields</name>
+        <read_roles/>
+        <suffix>x_1118046_partne_0</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 02:48:29</sys_created_on>
+        <sys_id>5bd3b608933e6250d5ec31697bba10be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>glide.ui.x_1118046_partne_0_tasks_activity.fields</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_properties_5bd3b608933e6250d5ec31697bba10be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 03:39:34</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,state,work_notes,comments,*Attachments*,assignment_group,closed_by</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=5bd3b608933e6250d5ec31697bba10be"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_properties_5bd3b608933e6250d5ec31697bba10be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tasks activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_1118046_partne_0_tasks_activity.fields</name>
+        <read_roles/>
+        <suffix>x_1118046_partne_0</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 02:48:29</sys_created_on>
+        <sys_id>5bd3b608933e6250d5ec31697bba10be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>glide.ui.x_1118046_partne_0_tasks_activity.fields</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_properties_5bd3b608933e6250d5ec31697bba10be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 03:39:34</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,state,work_notes,comments,*Attachments*,assignment_group,closed_by</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=5bd3b608933e6250d5ec31697bba10be"/>
+</record_update>]]></payload>
+        <payload_hash>121354157</payload_hash>
+        <record_name>glide.ui.x_1118046_partne_0_tasks_activity.fields</record_name>
+        <reverted_from/>
+        <source>14780c4d93be6650d5ec31697bba1048</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 16:53:39</sys_created_on>
+        <sys_id>0b78008d93be6650d5ec31697bba1070</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1980f01985f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 16:53:39</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>c378008d56be66503486e06241bfbc70</update_guid>
+        <update_guid_history>c378008d56be66503486e06241bfbc70:0,489f3e489c7e6250732b10bca7bf05a9:106455905,9344fe48243e625073a2ca18ea18f726:752581409,73d3b248143e6250d2f5e479173a2487:-678818159</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-17 18:55:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>74221e5b87c440849c4abbc02fbde010</sys_id>
+        <sys_metadata>5bd3b608933e6250d5ec31697bba10be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_1118046_partne_0_tasks_activity.fields</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_properties_5bd3b608933e6250d5ec31697bba10be</sys_update_name>
+        <sys_update_version display_value="sys_properties_5bd3b608933e6250d5ec31697bba10be">0b78008d93be6650d5ec31697bba1070</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-17 18:55:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

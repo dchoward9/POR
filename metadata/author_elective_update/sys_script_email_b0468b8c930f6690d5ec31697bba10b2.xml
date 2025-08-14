@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="DELETE">
+        <name>por_task_parent_record_link</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    (function runMailScript(current, template, email, email_action, event) {
+
+        if (!current.isValidRecord()) return;
+
+        var link = new EmailNotificationRedirection().getLink(current.partner_onboarding_request.getTableName(), current.partner_onboarding_request.getUniqueValue());
+        template.print('<a href="' + link + '">' + current.partner_onboarding_request.getDisplayValue() + '</a>');
+
+    })(current, template, email, email_action, event);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-25 14:25:49</sys_created_on>
+        <sys_id>b0468b8c930f6690d5ec31697bba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>por_task_parent_record_link</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_script_email_b0468b8c930f6690d5ec31697bba10b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-25 14:25:49</sys_updated_on>
+    </sys_script_email>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_script_email_b0468b8c930f6690d5ec31697bba10b2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;por_task_parent_record_link&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    (function runMailScript(current, template, email, email_action, event) {
+
+        if (!current.isValidRecord()) return;
+
+        var link = new EmailNotificationRedirection().getLink(current.partner_onboarding_request.getTableName(), current.partner_onboarding_request.getUniqueValue());
+        template.print('&lt;a href="' + link + '"&gt;' + current.partner_onboarding_request.getDisplayValue() + '&lt;/a&gt;');
+
+    })(current, template, email, email_action, event);
+
+})(current, template, email, email_action, event);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-25 14:25:49&lt;/sys_created_on&gt;&lt;sys_id&gt;b0468b8c930f6690d5ec31697bba10b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;por_task_parent_record_link&lt;/sys_name&gt;&lt;sys_package display_value="Partner Onboarding" source="x_1118046_partne_0"&gt;2ac1af2e931ea290d5ec31697bba10f0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Partner Onboarding"&gt;2ac1af2e931ea290d5ec31697bba10f0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_b0468b8c930f6690d5ec31697bba10b2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-25 14:25:49&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1193387755</payload_hash>
+        <record_name>por_task_parent_record_link</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-25 14:25:49</sys_created_on>
+        <sys_id>c786cbcc930f6690d5ec31697bba102c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19841f9d75b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-25 14:25:49</sys_updated_on>
+        <type>Email Script</type>
+        <update_guid>cb86cbcc230f6690e24f5d68e553992b</update_guid>
+        <update_guid_history>cb86cbcc230f6690e24f5d68e553992b:-1193387755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-25 14:42:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_email">sys_script_email</sys_db_object>
+        <sys_id>a6a48fb04b464d81befffe448b221379</sys_id>
+        <sys_metadata>b0468b8c930f6690d5ec31697bba10b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>por_task_parent_record_link</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_script_email_b0468b8c930f6690d5ec31697bba10b2</sys_update_name>
+        <sys_update_version display_value="sys_script_email_b0468b8c930f6690d5ec31697bba10b2">c786cbcc930f6690d5ec31697bba102c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-25 14:42:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

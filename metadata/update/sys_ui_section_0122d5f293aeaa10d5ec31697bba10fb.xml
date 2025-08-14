@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Work Notes" section_id="0122d5f293aeaa10d5ec31697bba10fb" sys_domain="global" table="x_1118046_partne_0_requests" version="3" view="approval">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 22:29:08</sys_created_on>
+            <sys_id>992219f293aeaa10d5ec31697bba1052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_1118046_partne_0_requests" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">0122d5f293aeaa10d5ec31697bba10fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 22:29:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes_list</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 22:29:08</sys_created_on>
+            <sys_id>912219f293aeaa10d5ec31697bba1053</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_1118046_partne_0_requests" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">0122d5f293aeaa10d5ec31697bba10fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 22:29:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 22:29:08</sys_created_on>
+            <sys_id>992219f293aeaa10d5ec31697bba1053</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_1118046_partne_0_requests" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">0122d5f293aeaa10d5ec31697bba10fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 22:29:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 22:29:08</sys_created_on>
+            <sys_id>912219f293aeaa10d5ec31697bba1054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_1118046_partne_0_requests" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">0122d5f293aeaa10d5ec31697bba10fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 22:29:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 22:29:08</sys_created_on>
+            <sys_id>992219f293aeaa10d5ec31697bba1054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_1118046_partne_0_requests" sys_domain="global" view="0cebef090a0006d40188d968934d3e9a">0122d5f293aeaa10d5ec31697bba10fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 22:29:08</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Work Notes</caption>
+            <header>false</header>
+            <name>x_1118046_partne_0_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-08 22:29:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0122d5f293aeaa10d5ec31697bba10fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1118046_partne_0_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+            <sys_update_name>sys_ui_section_0122d5f293aeaa10d5ec31697bba10fb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-08 22:29:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Approval" name="approval">0cebef090a0006d40188d968934d3e9a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

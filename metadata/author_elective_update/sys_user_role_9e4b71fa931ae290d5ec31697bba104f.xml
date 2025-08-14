@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1118046_partne_0.tasks_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>tasks_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:13:12</sys_created_on>
+        <sys_id>9e4b71fa931ae290d5ec31697bba104f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1118046_partne_0.tasks_user</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_user_role_9e4b71fa931ae290d5ec31697bba104f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:13:12</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_user_role_9e4b71fa931ae290d5ec31697bba104f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1118046_partne_0.tasks_user</name><scoped_admin>false</scoped_admin><suffix>tasks_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-26 15:13:12</sys_created_on><sys_id>9e4b71fa931ae290d5ec31697bba104f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1118046_partne_0.tasks_user</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_user_role_9e4b71fa931ae290d5ec31697bba104f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-26 15:13:12</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>2067985385</payload_hash>
+        <record_name>x_1118046_partne_0.tasks_user</record_name>
+        <reverted_from/>
+        <source>b4d8253293d6e290d5ec31697bba1094</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 15:13:12</sys_created_on>
+        <sys_id>664b71fa931ae290d5ec31697bba1055</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197accccc6b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:13:12</sys_updated_on>
+        <type>Role</type>
+        <update_guid>2a4b71fa601ae290d4f20dd1fe581a54</update_guid>
+        <update_guid_history>2a4b71fa601ae290d4f20dd1fe581a54:2067985385</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1118046_partne_0.tasks_user">1b68aa3a931ee290d5ec31697bba10f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-26 18:30:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>04dce18c449c47a881fb63cb1bb48890</sys_id>
+        <sys_metadata>9e4b71fa931ae290d5ec31697bba104f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1118046_partne_0.tasks_user</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_user_role_9e4b71fa931ae290d5ec31697bba104f</sys_update_name>
+        <sys_update_version display_value="sys_user_role_9e4b71fa931ae290d5ec31697bba104f">664b71fa931ae290d5ec31697bba1055</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-26 18:30:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

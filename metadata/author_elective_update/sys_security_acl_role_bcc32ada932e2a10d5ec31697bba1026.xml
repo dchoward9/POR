@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 15:09:55</sys_created_on>
+        <sys_id>bcc32ada932e2a10d5ec31697bba1026</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1118046_partne_0_requests.x_1118046_partne_0.viewer</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_security_acl display_value="x_1118046_partne_0_requests">261625be9396e290d5ec31697bba10e8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bcc32ada932e2a10d5ec31697bba1026</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 15:09:55</sys_updated_on>
+        <sys_user_role display_value="x_1118046_partne_0.viewer" name="x_1118046_partne_0.viewer">0341e702936ee610d5ec31697bba1068</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_security_acl_role_bcc32ada932e2a10d5ec31697bba1026</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-07 15:09:55</sys_created_on><sys_id>bcc32ada932e2a10d5ec31697bba1026</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1118046_partne_0_requests.x_1118046_partne_0.viewer</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_security_acl display_value="x_1118046_partne_0_requests">261625be9396e290d5ec31697bba10e8</sys_security_acl><sys_update_name>sys_security_acl_role_bcc32ada932e2a10d5ec31697bba1026</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-07 15:09:55</sys_updated_on><sys_user_role display_value="x_1118046_partne_0.viewer" name="x_1118046_partne_0.viewer">0341e702936ee610d5ec31697bba1068</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1827674864</payload_hash>
+        <record_name>x_1118046_partne_0_requests.x_1118046_partne_0.viewer</record_name>
+        <reverted_from/>
+        <source>b4d8253293d6e290d5ec31697bba1094</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 15:09:55</sys_created_on>
+        <sys_id>6504eeda932e2a10d5ec31697bba10da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197e56fbfd40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 15:09:55</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6904eeda052e2a10f4af0b219b0e1ed9</update_guid>
+        <update_guid_history>6904eeda052e2a10f4af0b219b0e1ed9:1827674864</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1118046_partne_0_requests.x_1118046_partne_0.viewer">e014eeda932e2a10d5ec31697bba10df</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-07 15:10:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0fb6f6ed363a4c2a920f0e74979bd3c4</sys_id>
+        <sys_metadata>bcc32ada932e2a10d5ec31697bba1026</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1118046_partne_0_requests.x_1118046_partne_0.viewer</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent display_value="">261625be9396e290d5ec31697bba10e8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_bcc32ada932e2a10d5ec31697bba1026</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_bcc32ada932e2a10d5ec31697bba1026">6504eeda932e2a10d5ec31697bba10da</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-07 15:10:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to table="x_1118046_partne_0_requests.comments">requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </applies_to>
+        <condition table="x_1118046_partne_0_requests.comments">requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow write for comments in x_1118046_partne_0_requests if the record matches the criteria (requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ), if the ACL condition (requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1118046_partne_0_requests.comments</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-09 16:48:22</sys_created_on>
+        <sys_id>5fbdc1cf93622e10d5ec31697bba1012</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_1118046_partne_0_requests.comments</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_security_acl_5fbdc1cf93622e10d5ec31697bba1012</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 01:50:07</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_security_acl_5fbdc1cf93622e10d5ec31697bba1012</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><applies_to table="x_1118046_partne_0_requests.comments">requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></applies_to><condition table="x_1118046_partne_0_requests.comments">requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><controlled_by_refs/><decision_type>allow</decision_type><description>Allow write for comments in x_1118046_partne_0_requests if the record matches the criteria (requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ), if the ACL condition (requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>x_1118046_partne_0_requests.comments</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-09 16:48:22</sys_created_on><sys_id>5fbdc1cf93622e10d5ec31697bba1012</sys_id><sys_mod_count>4</sys_mod_count><sys_name>x_1118046_partne_0_requests.comments</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_security_acl_5fbdc1cf93622e10d5ec31697bba1012</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-13 01:50:07</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>580358588</payload_hash>
+        <record_name>x_1118046_partne_0_requests.comments</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 01:50:20</sys_created_on>
+        <sys_id>1f86eac493fa6250d5ec31697bba108c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1980179dbf30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 01:50:20</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>d386eac4cbfa6250c2e172499bab788c</update_guid>
+        <update_guid_history>d386eac4cbfa6250c2e172499bab788c:580358588,f18666c4cefa6250856d6c7fd68f29b3:0,1afb6c777daeee10f1e2c493379b98a7:0,eea928337faeee1041c61a8db7481bc0:297752252,dfc53beb046aee109ac784faf2ef11b1:0,97057b6bc46aee10dc55bac35ad2763e:297752252,9ae4f72b916aee10357e54664f4c39ed:0,78c47be7546aee10b8a31efa7f72fe48:297752252,80a63507d5662e10aff8013e65689b32:-1703842384,1fafad4be5262e1070d0bd078bc119c3:-26088161,5fbd85cfbb622e10c59e9048e5d95731:-347493179</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-13 01:56:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0287e1a69d3046f180a647804a5bc991</sys_id>
+        <sys_metadata>5fbdc1cf93622e10d5ec31697bba1012</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1118046_partne_0_requests.comments</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent display_value="">661665be9396e290d5ec31697bba1008</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_5fbdc1cf93622e10d5ec31697bba1012</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_5fbdc1cf93622e10d5ec31697bba1012">1f86eac493fa6250d5ec31697bba108c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-13 01:56:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

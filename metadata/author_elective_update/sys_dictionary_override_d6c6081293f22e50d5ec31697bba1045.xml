@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes>close_states=3,4;</attributes>
+        <attributes_override>true</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value>3</default_value>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>state</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_1118046_partne_0_tasks</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 13:58:51</sys_created_on>
+        <sys_id>d6c6081293f22e50d5ec31697bba1045</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_dictionary_override_d6c6081293f22e50d5ec31697bba1045</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 14:00:01</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_dictionary_override_d6c6081293f22e50d5ec31697bba1045</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes>close_states=3,4;</attributes><attributes_override>true</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value>3</default_value><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>state</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_1118046_partne_0_tasks</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-19 13:58:51</sys_created_on><sys_id>d6c6081293f22e50d5ec31697bba1045</sys_id><sys_mod_count>1</sys_mod_count><sys_name>state</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_dictionary_override_d6c6081293f22e50d5ec31697bba1045</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 14:00:01</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>417114629</payload_hash>
+        <record_name>state</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 14:00:03</sys_created_on>
+        <sys_id>8f17cc1293f22e50d5ec31697bba1078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19822fc188c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 14:00:03</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>0717cc1261f22e5091fce2c3775b8a78</update_guid>
+        <update_guid_history>0717cc1261f22e5091fce2c3775b8a78:417114629,69d6c81290f22e50e18643fcaada84ce:-212774740</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 14:03:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>310309343ed44386b0ea54a375fad2b9</sys_id>
+        <sys_metadata>d6c6081293f22e50d5ec31697bba1045</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent display_value="Requested For">29eba07793aeee10d5ec31697bba10d8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_d6c6081293f22e50d5ec31697bba1045</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_d6c6081293f22e50d5ec31697bba1045">8f17cc1293f22e50d5ec31697bba1078</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 14:03:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

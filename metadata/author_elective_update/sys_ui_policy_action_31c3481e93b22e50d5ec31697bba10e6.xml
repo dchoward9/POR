@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>work_notes</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 13:45:43</sys_created_on>
+        <sys_id>31c3481e93b22e50d5ec31697bba10e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>work_notes</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_ui_policy_action_31c3481e93b22e50d5ec31697bba10e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 13:45:43</sys_updated_on>
+        <table>x_1118046_partne_0_tasks</table>
+        <ui_policy display_value="Work notes mandatory if task inactive">bfa3c41e93b22e50d5ec31697bba1042</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=31c3481e93b22e50d5ec31697bba10e6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_ui_policy_action_31c3481e93b22e50d5ec31697bba10e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>work_notes</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-19 13:45:43</sys_created_on><sys_id>31c3481e93b22e50d5ec31697bba10e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>work_notes</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_ui_policy_action_31c3481e93b22e50d5ec31697bba10e6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-19 13:45:43</sys_updated_on><table>x_1118046_partne_0_tasks</table><ui_policy display_value="Work notes mandatory if task inactive">bfa3c41e93b22e50d5ec31697bba1042</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=31c3481e93b22e50d5ec31697bba10e6"/></record_update>]]></payload>
+        <payload_hash>-1713834735</payload_hash>
+        <record_name>work_notes</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 13:45:43</sys_created_on>
+        <sys_id>81d3881e93b22e50d5ec31697bba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19822eef82b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 13:45:43</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>85d3881e54b22e5017219a40a699b2c2</update_guid>
+        <update_guid_history>85d3881e54b22e5017219a40a699b2c2:-1713834735</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-19 13:46:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>15288eae52ae4e7c81f58985561d6e69</sys_id>
+        <sys_metadata>31c3481e93b22e50d5ec31697bba10e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>work_notes</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_31c3481e93b22e50d5ec31697bba10e6</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_31c3481e93b22e50d5ec31697bba10e6">81d3881e93b22e50d5ec31697bba10c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-19 13:46:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

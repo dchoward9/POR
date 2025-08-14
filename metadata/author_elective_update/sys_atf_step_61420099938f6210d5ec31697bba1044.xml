@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Click UI Action 'Approve' on 'Approval' form</description>
+        <display_name>Click a UI Action (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Approve PARTREQ</notes>
+        <order>20</order>
+        <step_config display_value="Click a UI Action (SP)">86ec986123630300ab65ff5e17bf65a5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:23:14</sys_created_on>
+        <sys_id>61420099938f6210d5ec31697bba1044</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Click a UI Action (SP)</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_update_name>sys_atf_step_61420099938f6210d5ec31697bba1044</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:32:52</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <test display_value="Manager - Request Approval">4b9d3b81938f6210d5ec31697bba106c</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=61420099938f6210d5ec31697bba1044"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>61420099938f6210d5ec31697bba1044</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:23:14</sys_created_on>
+        <sys_id>3ad28099938f6210d5ec31697bba10a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:23:14</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="Assert type">dee0e8a123630300ab65ff5e17bf657d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>61420099938f6210d5ec31697bba1044</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:23:14</sys_created_on>
+        <sys_id>76d28099938f6210d5ec31697bba10a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:23:14</sys_updated_on>
+        <value>82183da3c3511200f7d1ca3adfba8f21</value>
+        <variable display_value="UI action">d670a4a123630300ab65ff5e17bf65f4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>61420099938f6210d5ec31697bba1044</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:23:14</sys_created_on>
+        <sys_id>fad28099938f6210d5ec31697bba10a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:23:14</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="Table">535064a123630300ab65ff5e17bf65d3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_86ec986123630300ab65ff5e17bf65a5^id=61420099938f6210d5ec31697bba1044"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</application>
+        <file_path/>
+        <instance_id>a6e5b236eb9c2e105a2dfceacad0cd67</instance_id>
+        <instance_name>dev302615</instance_name>
+        <name>sys_atf_step_61420099938f6210d5ec31697bba1044</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Click UI Action 'Approve' on 'Approval' form</description><display_name>Click a UI Action (SP)</display_name><inputs/><mugshots_cache_json/><notes>Approve PARTREQ</notes><order>20</order><step_config display_value="Click a UI Action (SP)">86ec986123630300ab65ff5e17bf65a5</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:23:14</sys_created_on><sys_id>61420099938f6210d5ec31697bba1044</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Click a UI Action (SP)</sys_name><sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package><sys_policy/><sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope><sys_update_name>sys_atf_step_61420099938f6210d5ec31697bba1044</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:32:52</sys_updated_on><table>sysapproval_approver</table><test display_value="Manager - Request Approval">4b9d3b81938f6210d5ec31697bba106c</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=61420099938f6210d5ec31697bba1044"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>61420099938f6210d5ec31697bba1044</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:23:14</sys_created_on><sys_id>3ad28099938f6210d5ec31697bba10a9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:23:14</sys_updated_on><value>form_submitted_to_server</value><variable display_value="Assert type">dee0e8a123630300ab65ff5e17bf657d</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>61420099938f6210d5ec31697bba1044</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:23:14</sys_created_on><sys_id>76d28099938f6210d5ec31697bba10a9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:23:14</sys_updated_on><value>82183da3c3511200f7d1ca3adfba8f21</value><variable display_value="UI action">d670a4a123630300ab65ff5e17bf65f4</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>61420099938f6210d5ec31697bba1044</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 21:23:14</sys_created_on><sys_id>fad28099938f6210d5ec31697bba10a9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 21:23:14</sys_updated_on><value>sysapproval_approver</value><variable display_value="Table">535064a123630300ab65ff5e17bf65d3</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_86ec986123630300ab65ff5e17bf65a5^id=61420099938f6210d5ec31697bba1044"/></record_update>]]></payload>
+        <payload_hash>234234994</payload_hash>
+        <record_name>Click a UI Action (SP)</record_name>
+        <reverted_from/>
+        <source>16c99e4c937a6250d5ec31697bba102a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:32:52</sys_created_on>
+        <sys_id>3705089d938f6210d5ec31697bba1037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19852f3e4030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:32:52</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>bb05089d5f8f62108aca7e9a0088ad36</update_guid>
+        <update_guid_history>bb05089d5f8f62108aca7e9a0088ad36:234234994,6ca4485df08f6210eb7d8b7716687baa:569275080,99e200d98f8f6210354c780620e13a8c:779729961,76d2c0d9408f62104d2d19c1da871030:2048264526</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 21:33:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>053e5cf9410c428b8316c9fd16129051</sys_id>
+        <sys_metadata>61420099938f6210d5ec31697bba1044</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click a UI Action (SP)</sys_name>
+        <sys_package display_value="Partner Onboarding" source="x_1118046_partne_0">2ac1af2e931ea290d5ec31697bba10f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Partner Onboarding">2ac1af2e931ea290d5ec31697bba10f0</sys_scope>
+        <sys_scope_delete display_value="">06c30de9675c45a59150823f7d39aad9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_61420099938f6210d5ec31697bba1044</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_61420099938f6210d5ec31697bba1044">3705089d938f6210d5ec31697bba1037</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 21:33:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -114,3 +114,34 @@ This is critical information to prevent errors.
 - **Your Directive for XML Files:** **Do not attempt to write or edit Fluent code for these types.** When asked to modify one, your task is to analyze the provided `.xml` file and provide clear, step-by-step instructions for a human to perform the change in the ServiceNow UI (e.g., in Flow Designer or Form Layout). After the human makes the change, they will run `Sync` to update the XML file in the repository.
 
 - **Security Inheritance on Task-Extended Tables:** Both the `Requests` and `Tasks` tables extend the base `task` table. To properly secure this application, a **Deny-Unless ACL** has been implemented on both tables. This rule acts as a gatekeeper, denying access to everyone *unless* they meet specific criteria for this application (e.g., being the requester or having a `POR` role). If you are debugging access issues, always check this Deny-Unless rule first, as it is the primary control overriding default platform behavior.
+
+---
+
+---
+## Key Integration Patterns
+
+### Client-Side Integrations via GlideAjax
+
+When real-time data from an external source is needed directly on a form, the standard pattern is to use a combination of a Client Script and a client-callable Script Include.
+
+-   **Purpose:** To provide immediate feedback to a user on a form based on their input, without requiring them to save the record.
+-   **Workflow:**
+    1.  An `onChange` **Client Script** triggers when a user modifies a specific field.
+    2.  The Client Script makes an asynchronous call to the server using `GlideAjax`.
+    3.  The `GlideAjax` call invokes a specific function within a client-callable **Script Include**.
+    4.  The Script Include contains the server-side logic, such as making a REST API call to an external endpoint.
+    5.  The Script Include processes the response and returns a result (typically a JSON string) back to the Client Script.
+    6.  The Client Script then uses the returned data to update the form, for example, by displaying a field message.
+-   **Project Example:** The **University Verification** feature is the canonical example of this pattern.
+    -   **Client Script:** `Get University Info`
+    -   **Script Include:** `UniversityDataUtil`
+
+## Coding Standards and Patterns
+
+To ensure consistency and maintainability, this project adheres to specific coding patterns.
+
+### Business Rules
+
+For business rules that contain complex or multi-step logic, the preferred pattern is to encapsulate distinct actions within their own helper functions inside the main business rule function. This improves readability and makes the code easier to debug and maintain.
+
+A primary example of this pattern is the **`Request Update after Stage Change`** business rule on the `Requests` table. Instead of a single, long script, its logic is organized into a main `stageManager()` function which, in turn, calls a more specific `addRejectionComment()` function when needed. Developers should use this rule as a template for structuring new business rules with similar complexity.

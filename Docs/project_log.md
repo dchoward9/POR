@@ -101,7 +101,10 @@ The process begins when a user submits a request, which triggers a master Flow D
     *   **Business Rules:** Run on the server to automate actions like:
         *   Setting a standardized `short_description` on `Requests` based on the partner name.
         *   Posting user-friendly status updates to the `comments` journal when the `stage` changes.
-        *   Cascading rejection comments from approval records to the `Request`'s activity stream.
+        *   **Consolidated Stage-Based Logic:** A single `before` update business rule (`Request Update after Stage Change`) acts as a central manager for all stage-driven changes on the `Request` record. It contains nested helper functions to keep the logic organized. Based on the new `stage`, this rule is responsible for:
+            *   Synchronously setting the correct backend `state` (e.g., setting the state to "Work in Progress" when the stage becomes "Contract Redlining").
+            *   Posting user-friendly status updates to the `comments` journal.
+            *   Querying the `sysapproval_approver` table to find and cascade rejection comments into the `Request`'s activity stream when the stage is set to "request_rejected".
         *   Synchronizing comments bidirectionally between parent `Requests` and active child `Tasks`. The logic includes a `DoNotCopy` flag to prevent recursive updates.
         *   Closing open child `Tasks` when a parent `Request` is closed.
         *   Calculating the total `calendar duration` of a `Request` when it is closed.

@@ -27,6 +27,7 @@ The initial version of the Partner Onboarding application provides core function
 *   **Role-Based Dashboards:** Tailored views provide insights for requesters, managers, fulfillment teams, and administrators.
 *   **Controlled Access:** A robust security model ensures users only see information relevant to their role.
 *   **Auditable Record Termination:** Records cannot be deleted. Requests can be moved to a "Cancelled" state, either through the automated rejection process or by manual administrative action, preserving a full, auditable history. (Technically the app admins CAN delete the records, but they shouldn't do that)
+*   **Real-Time University Verification:** For university partners, the system includes a live integration with a public database to validate the university's details. This feature provides immediate feedback to the fulfillment team, reducing data entry errors and accelerating the verification process.
 
 ## 4. Key Historical Decisions & Business Impact
 

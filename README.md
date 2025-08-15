@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://i.imgur.com/k9gH8fW.png" alt="ServiceNow Logo" width="150"/>
   <h1>ServiceNow Scoped Application: Partner Onboarding</h1>
   <p>
     A full-stack, enterprise-grade application built to automate and manage a complex, multi-departmental partner onboarding process.
@@ -18,7 +17,7 @@
 
 A short, 2-minute demonstration of the application's functionality, from the user-facing Service Catalog form to the back-end automation.
 
-**[Watch the Video on YouTube](YOUR_YOUTUBE_LINK_HERE)**
+**YouTube Video Coming Soon**
 
 ---
 
@@ -60,7 +59,6 @@ The solution automates this entire lifecycle, from initial request submission in
 ## 🏛️ Architectural Highlights
 
 <p align="center">
-  <img src="YOUR_SCREENSHOT_LINK_FOR_FLOW_DESIGNER" alt="Flow Designer Canvas" width="700"/>
   <br>
   <em>The main flow orchestrates the entire process, calling a subflow to dynamically generate tasks based on a configuration table.</em>
 </p>
@@ -68,7 +66,6 @@ The solution automates this entire lifecycle, from initial request submission in
 <br>
 
 <p align="center">
-  <img src="YOUR_SCREENSHOT_LINK_FOR_SERVICE_CATALOG" alt="Service Catalog Form" width="700"/>
   <br>
   <em>The user-friendly Service Catalog form uses UI Policies and Client Scripts to guide the user and validate data in real-time.</em>
 </p>

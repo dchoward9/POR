@@ -1,7 +1,5 @@
 # PROJECT LOG: Partner Onboarding Application (POR) - Genesis Block
 
-**Author:** Senior ServiceNow Systems Analyst
-
 ## 1. Application Overview
 
 The Partner Onboarding (POR) application is a scoped application designed to formalize and automate the process of onboarding new third-party partners, vendors, and suppliers. It follows a standard ServiceNow request-and-task pattern, initiated by a user-facing Record Producer in the Service Catalog.

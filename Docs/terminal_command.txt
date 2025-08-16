@@ -1,1 +1,0 @@
-npx @servicenow/sdk transform --auth my-instance 

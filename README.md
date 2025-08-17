@@ -15,7 +15,7 @@
 
 ## 📒 Executive Summary
 
-A short, 20 page PowerPoint of the application's core functionality, from the user-facing Service Catalog form to the back-end automation and reporting dashboards.
+A short, 20-page PowerPoint of the application's core functionality, from the user-facing Service Catalog form to the back-end automation and reporting dashboards.
 
 <a href='https://docs.google.com/presentation/d/1ds8dxkYQFMMZkeoVSswU5m56A3cFp7x6/edit?usp=sharing&ouid=112315176205540565800&rtpof=true&sd=true'>**[Read the PowerPoint]**</a>
 

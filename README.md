@@ -5,9 +5,9 @@
   </p>
 
   <!-- Badges -->
-  <img src="https://img.shields.io/badge/Platform-ServiceNow-blueviolet?style=for-the-badge" alt="Platform: ServiceNow"/>
-  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" alt="Status: In Progress"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT"/>
+  <img src="https://img.shields.io/badge/Platform-ServiceNow-80B6A1?style=for-the-badge" alt="Platform: ServiceNow"/>
+  <img src="https://img.shields.io/badge/Status-Evergreen-05472A?style=for-the-badge" alt="Status: Evergreen"/>
+  <img src="https://img.shields.io/badge/License-MIT-750014?style=for-the-badge" alt="License: MIT"/>
 
 </div>
 

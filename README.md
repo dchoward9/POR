@@ -103,11 +103,11 @@ This solution delivers clear value to all stakeholders:
 ## 🧭 Key Architectural Decisions 
 
 *   **Back-End Automation:** The core logic is powered by a data-driven Flow Designer process that utilizes a reusable subflow and a custom-scripted Action. Server-side logic and data integrity are enforced through multiple Business Rules. This automation drives the flow through various stages, such as Contract Redlining and Security Review, so that all stakeholders are aware of the request’s status.
-*   
+  
 *   **Front-End User Experience:** Employees can easily find the request form, which is a Service Catalog Record Producer, on their Service Portal. The form’s UI Policies, Client Scripts, and GlideAjax enhance the user experience by autopopulating the requester’s manager and preventing submission of incomplete forms.
-*   
+  
 *   **Data Model & Architecture:** There are three custom tables (`Requests`, `Tasks`, `Task Config`), and ServiceNow’s task table has been extended to utilize its built-in logic and features. The `Task Config` table stores the flow’s task definitions, such as stage and assignment group. This particular table demonstrates configuration over code by allowing process owners to simply add, remove, or modify task definitions (i.e. task stages, assignment groups) to ensure their business process is updated in mere minutes versus 1-2 weeks.
-*   
+  
 *   **Security:**  The application is secured with over 50 granular, role-based Access Control Lists (ACLs), ensuring that users can only see and interact with the data relevant to their function. Because the application's tables extend ServiceNow's base `Task` table, Deny-Unless security rules are enforced to ensure that only users with explicit access are allowed to view and modify Partner Onboarding Requests and Tasks. This prevents `ITIL` users without explicit access from viewing these records as well, a key detail for Subscription Management and governance. Fulfillers can only access tasks relevant to their team, and managers can only access requests submitted by direct reports. 
 
 

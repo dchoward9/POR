@@ -27,8 +27,8 @@ A short, 2-minute demonstration of the application's core functionality, from th
 2.  [The Solution Vision](#-the-solution-vision)
 3.  [Key Technical Features](#-key-technical-features)
 4.  [Stakeholder Value](#-stakeholder-value)
-5.  [Application Highlights](#️-application-highlights)
-6.  [Key Architectual Decisions](#️-key-architectual-decisions)
+5.  [Application Highlights](#-application-highlights)
+6.  [Key Architectural Decisions](#-key-architectural-decisions)
 7.  [About the Source Code](#-about-the-source-code)
 
 ---

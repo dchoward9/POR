@@ -85,7 +85,7 @@ This solution delivers clear value to all stakeholders:
 <br>
 
 <p align="center">
-  <img src="https://i.imgur.com/WM19DY3.png" alt="Service Catalog Form" width="700"/>
+  <img src="https://i.imgur.com/vTESfRe.png" alt="Service Catalog Form" width="700"/>
   <br>
   <em>The user-friendly Service Catalog form uses UI Policies and Client Scripts to guide the user and validate data in real-time.</em>
 </p>

@@ -13,11 +13,19 @@
 
 ---
 
-## 🎥 Video Walkthrough
+## 📒 Executive Summary
 
-A short, 2-minute demonstration of the application's core functionality, from the user-facing Service Catalog form to the back-end automation and reporting dashboards.
+A short, 20 page PowerPoint of the application's core functionality, from the user-facing Service Catalog form to the back-end automation and reporting dashboards.
 
-**[Video Coming Soon]**
+<a href='https://docs.google.com/presentation/d/1ds8dxkYQFMMZkeoVSswU5m56A3cFp7x6/edit?usp=sharing&ouid=112315176205540565800&rtpof=true&sd=true'>**[View the PowerPoint]**</a>
+
+---
+
+## 🎥 Technical Walkthrough
+
+A 2-minute technical video that reviews the application's frontend, backend, data model, and security, highlighting scalability and modularity. 
+
+<a href='https://www.canva.com/design/DAGwW2pZ2oQ/er0rMdpDrXcMZWpAgNC_1w/watch?utm_content=DAGwW2pZ2oQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2d114c6deb'>**[Watch the Video]**</a>
 
 ---
 

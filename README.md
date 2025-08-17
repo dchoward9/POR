@@ -100,7 +100,7 @@ This solution delivers clear value to all stakeholders:
 
 ---
 
-## 🖋️ Key Architectural Decisions 
+## 🧭 Key Architectural Decisions 
 
 *   **Back-End Automation:** The core logic is powered by a data-driven Flow Designer process that utilizes a reusable subflow and a custom-scripted Action. Server-side logic and data integrity are enforced through multiple Business Rules. This automation drives the flow through various stages, such as Contract Redlining and Security Review, so that all stakeholders are aware of the request’s status.
 *   

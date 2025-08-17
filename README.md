@@ -113,9 +113,4 @@ This solution delivers clear value to all stakeholders:
 
 ## 📂 About the Source Code
 
-The complete source code for this application is available in this repository, structured for use with a modern, source-control-based ServiceNow development workflow.
-
-*   **Application Metadata (`/metadata/update`):** Contains the application's configuration records (such as ACLs, UI Policies, and Flow Designer components) stored as individual XML files.
-*   **Scripts (`/src/fluent/generated`):** Contains server-side scripts (Business Rules, Script Includes) represented as TypeScript (`.now.ts`) files, a format used by modern ServiceNow development tools for enhanced readability and type safety.
-
-This repository is intended for **code review and as a demonstration of technical capabilities.**
+The complete source code for this application is available in this repository. Although artifacts are present in XML format, this application’s metadata was converted to TypeScript (.ts) using **ServiceNow Fluent**. TypeScript’s format greatly simplifies code reviews and analysis of change history. The application can be installed by cloning this repo using either ServiceNow SDK or ServiceNow IDE.

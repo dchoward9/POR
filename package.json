@@ -1,18 +1,7 @@
 {
-    "name": "partner-onboarding",
-    "version": "1.0.0",
-    "description": "This scoped application is used to track requests and tasks related to partner onboarding for Enterprise Innovations Ltd.",
-    "license": "UNLICENSED",
-    "scripts": {
-        "build": "now-sdk build",
-        "deploy": "now-sdk install",
-        "transform": "now-sdk transform",
-        "types": "now-sdk dependencies"
-    },
-    "devDependencies": {
-        "@servicenow/sdk": "3.0.3",
-        "@servicenow/glide": "26.0.1",
-        "eslint": "8.50.0",
-        "@servicenow/eslint-plugin-sdk-app-plugin": "3.0.3"
-    }
+  "name": "now",
+  "version": "1.0.0",
+  "dependencies": {
+    "eslint": "5.6.0"
+  }
 }

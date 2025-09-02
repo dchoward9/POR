@@ -20,7 +20,7 @@ jobs:
         run: |
           # Define the list of endpoints to fetch.
           # This makes it easy to add or remove endpoints in one place.
-          endpoints="companies users groups group_members group_roles departments locations tests"
+          endpoints="companies users groups group_members group_roles departments locations tests taskconfig"
           
           echo "--- Starting Parallel Data Fetch for: $endpoints ---"
           

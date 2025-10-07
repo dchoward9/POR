@@ -11,5 +11,20 @@
         "*/system": true
     },
     "css.lint.emptyRules": "ignore",
-    "html.customData": ["./lib/data/jelly_schema.json"]
+    "html.customData": [
+        "./lib/data/jelly_schema.json"
+    ],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#1D856D",
+        "statusBar.foreground": "#fff",
+        "activityBar.background": "#1D856D",
+        "activityBar.foreground": "#fff"
+    },
+    "now.instance.authentication.type": "Basic",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "now.instance.user.name": "admin",
+    "now.instance.host.url": "https://dev302615.service-now.com",
+    "now.instance.OAuth.client.id": "",
+    "now.instance.user.password": "•••••••••••",
+    "now.instance.OAuth.client.secret": ""
 }

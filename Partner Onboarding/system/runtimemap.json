@@ -151,49 +151,70 @@
         "sys_updated_on": "2025-07-14 20:57:04",
         "SERVER_MOD_TIME": 1752544624000,
         "LOCAL_MOD_TIME": 1756578123375,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123375
+        "CURRENT_LOCAL_MOD_TIME": 1756578123375,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752544624000
       },
       "Assigned to cleared when assignment group is empty": {
         "sys_id": "193dbbc293b22e50d5ec31697bba10b0",
         "sys_updated_on": "2025-07-19 13:30:09",
         "SERVER_MOD_TIME": 1752949809000,
         "LOCAL_MOD_TIME": 1756578123435,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123435
+        "CURRENT_LOCAL_MOD_TIME": 1756578123435,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752949809000
       },
       "Show_Hide University Name": {
         "sys_id": "f538688293db6a50d5ec31697bba1052",
         "sys_updated_on": "2025-08-12 18:18:00",
         "SERVER_MOD_TIME": 1755040680000,
         "LOCAL_MOD_TIME": 1756578123726,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123726
+        "CURRENT_LOCAL_MOD_TIME": 1756578123726,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1755040680000
       },
       "Fields read-only when PORTASK is inactive": {
         "sys_id": "a9f06f4e93feea50d5ec31697bba1010",
         "sys_updated_on": "2025-07-19 12:03:03",
         "SERVER_MOD_TIME": 1752944583000,
         "LOCAL_MOD_TIME": 1756578124422,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124422
+        "CURRENT_LOCAL_MOD_TIME": 1756578124422,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752944583000
       },
       "Task - isNewRecord - Adjust fields": {
         "sys_id": "8badce36939ae290d5ec31697bba101e",
         "sys_updated_on": "2025-07-13 03:35:24",
         "SERVER_MOD_TIME": 1752395724000,
         "LOCAL_MOD_TIME": 1756578124753,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124753
+        "CURRENT_LOCAL_MOD_TIME": 1756578124753,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752395724000
       },
       "Work notes mandatory when state is closed": {
         "sys_id": "7151801a93b22e50d5ec31697bba10c7",
         "sys_updated_on": "2025-07-19 13:54:25",
         "SERVER_MOD_TIME": 1752951265000,
         "LOCAL_MOD_TIME": 1756578124946,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124946
+        "CURRENT_LOCAL_MOD_TIME": 1756578124946,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752951265000
       },
       "Assigned To mandatory when active and state is not open": {
         "sys_id": "340e3f0693b22e50d5ec31697bba10d5",
         "sys_updated_on": "2025-07-19 13:55:11",
         "SERVER_MOD_TIME": 1752951311000,
         "LOCAL_MOD_TIME": 1756578125366,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125366
+        "CURRENT_LOCAL_MOD_TIME": 1756578125366,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752951311000
       }
     },
     "Client Scripts": {
@@ -202,59 +223,99 @@
         "sys_updated_on": "2025-08-12 18:30:26",
         "SERVER_MOD_TIME": 1755041426000,
         "LOCAL_MOD_TIME": 1756578123684,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123684
+        "CURRENT_LOCAL_MOD_TIME": 1756578123684,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1755041426000
       },
       "Hide tasks related list": {
         "sys_id": "bb41fea29336ae50d5ec31697bba1003",
         "sys_updated_on": "2025-07-20 21:04:05",
         "SERVER_MOD_TIME": 1753063445000,
         "LOCAL_MOD_TIME": 1756578124072,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124072
+        "CURRENT_LOCAL_MOD_TIME": 1756578124072,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753063445000
       },
       "test": {
         "sys_id": "b5bcebba933eee50d5ec31697bba1037",
         "sys_updated_on": "2025-07-21 20:12:39",
         "SERVER_MOD_TIME": 1753146759000,
         "LOCAL_MOD_TIME": 1756578124287,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124287
+        "CURRENT_LOCAL_MOD_TIME": 1756578124287,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753146759000
       },
       "Clear assigned to if group changes": {
         "sys_id": "5f9844d293f22e50d5ec31697bba1064",
         "sys_updated_on": "2025-07-19 14:07:26",
         "SERVER_MOD_TIME": 1752952046000,
         "LOCAL_MOD_TIME": 1756578125039,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125039
+        "CURRENT_LOCAL_MOD_TIME": 1756578125039,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752952046000
       }
     }
   },
   "Navigation": {
     "Modules (Mobile)": {
       "Task Configs": {
-        "sys_id": "02a16dc193136650d5ec31697bba10c2"
+        "sys_id": "02a16dc193136650d5ec31697bba10c2",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1756578123142,
+        "CURRENT_SERVER_MOD_TIME": 1754787278000
       }
     },
     "Modules": {
       "Requests": {
-        "sys_id": "1a1625be9396e290d5ec31697bba10b0"
+        "sys_id": "1a1625be9396e290d5ec31697bba10b0",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1756578123142,
+        "CURRENT_SERVER_MOD_TIME": 1752833415000
       },
       "Task Configs": {
-        "sys_id": "4aa16dc193136650d5ec31697bba10ae"
+        "sys_id": "4aa16dc193136650d5ec31697bba10ae",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1756578123142,
+        "CURRENT_SERVER_MOD_TIME": 1754787278000
       },
       "Tasks": {
-        "sys_id": "a64b71fa931ae290d5ec31697bba1069"
+        "sys_id": "a64b71fa931ae290d5ec31697bba1069",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1756578123142,
+        "CURRENT_SERVER_MOD_TIME": 1752724546000
       }
     }
   },
   "Access Control": {
     "Roles": {
       "x_1118046_partne_0.viewer": {
-        "sys_id": "0341e702936ee610d5ec31697bba1068"
+        "sys_id": "0341e702936ee610d5ec31697bba1068",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1756578123142,
+        "CURRENT_SERVER_MOD_TIME": 1752810817000
       },
       "x_1118046_partne_0.user": {
-        "sys_id": "03c1ef2e931ea290d5ec31697bba1032"
+        "sys_id": "03c1ef2e931ea290d5ec31697bba1032",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1756578123142,
+        "CURRENT_SERVER_MOD_TIME": 1750928555000
       },
       "x_1118046_partne_0.admin": {
-        "sys_id": "f2c1af2e931ea290d5ec31697bba10fa"
+        "sys_id": "f2c1af2e931ea290d5ec31697bba10fa",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1756578123142,
+        "CURRENT_SERVER_MOD_TIME": 1752109307000
       }
     }
   },
@@ -265,70 +326,100 @@
         "sys_updated_on": "2025-08-13 17:20:50",
         "SERVER_MOD_TIME": 1755123650000,
         "LOCAL_MOD_TIME": 1756578123388,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123388
+        "CURRENT_LOCAL_MOD_TIME": 1756578123388,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1755123650000
       },
       "Get Flow data": {
         "sys_id": "0cb7af7e93faee50d5ec31697bba1062",
         "sys_updated_on": "2025-07-21 20:14:51",
         "SERVER_MOD_TIME": 1753146891000,
         "LOCAL_MOD_TIME": 1756578123406,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123406
+        "CURRENT_LOCAL_MOD_TIME": 1756578123406,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753146891000
       },
       "Cascade Partner Information from Parent ": {
         "sys_id": "19339f7293122690d5ec31697bba106d",
         "sys_updated_on": "2025-07-13 01:05:56",
         "SERVER_MOD_TIME": 1752386756000,
         "LOCAL_MOD_TIME": 1756578123483,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123483
+        "CURRENT_LOCAL_MOD_TIME": 1756578123483,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752386756000
       },
       "Update task work notes": {
         "sys_id": "c7108f48937e6250d5ec31697bba103f",
         "sys_updated_on": "2025-07-14 20:25:40",
         "SERVER_MOD_TIME": 1752542740000,
         "LOCAL_MOD_TIME": 1756578123994,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123994
+        "CURRENT_LOCAL_MOD_TIME": 1756578123994,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752542740000
       },
       "Close remaining tasks when REQ closes": {
         "sys_id": "c4f7bb24937a2650d5ec31697bba1011",
         "sys_updated_on": "2025-07-31 15:05:45",
         "SERVER_MOD_TIME": 1753992345000,
         "LOCAL_MOD_TIME": 1756578124029,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124029
+        "CURRENT_LOCAL_MOD_TIME": 1756578124029,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753992345000
       },
       "Calculate Duration": {
         "sys_id": "c79cd26593b26a50d5ec31697bba1039",
         "sys_updated_on": "2025-08-26 16:22:47",
         "SERVER_MOD_TIME": 1756243367000,
         "LOCAL_MOD_TIME": 1756578124114,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124114
+        "CURRENT_LOCAL_MOD_TIME": 1756578124114,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1756243367000
       },
       "Update request short description": {
         "sys_id": "686ece76939ae290d5ec31697bba10b8",
         "sys_updated_on": "2025-07-11 02:51:30",
         "SERVER_MOD_TIME": 1752220290000,
         "LOCAL_MOD_TIME": 1756578124964,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124964
+        "CURRENT_LOCAL_MOD_TIME": 1756578124964,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752220290000
       },
       "PARTREQ comments to PORTASK": {
         "sys_id": "49f870f193fe6a50d5ec31697bba10b3",
         "sys_updated_on": "2025-08-09 18:40:52",
         "SERVER_MOD_TIME": 1754782852000,
         "LOCAL_MOD_TIME": 1756578125190,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125190
+        "CURRENT_LOCAL_MOD_TIME": 1756578125190,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754782852000
       },
       "Update stages for manual REQ closure": {
         "sys_id": "430187639336e290d5ec31697bba10c2",
         "sys_updated_on": "2025-07-31 15:41:14",
         "SERVER_MOD_TIME": 1753994474000,
         "LOCAL_MOD_TIME": 1756578125226,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125226
+        "CURRENT_LOCAL_MOD_TIME": 1756578125226,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753994474000
       },
       "PORTASK comments to PARTREQ ": {
         "sys_id": "369c572993f66a50d5ec31697bba107c",
         "sys_updated_on": "2025-08-09 18:40:49",
         "SERVER_MOD_TIME": 1754782849000,
         "LOCAL_MOD_TIME": 1756578125334,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125334
+        "CURRENT_LOCAL_MOD_TIME": 1756578125334,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754782849000
       }
     },
     "Script Includes": {
@@ -337,98 +428,140 @@
         "sys_updated_on": "2025-08-12 04:10:05",
         "SERVER_MOD_TIME": 1754989805000,
         "LOCAL_MOD_TIME": 1756578123419,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123419
+        "CURRENT_LOCAL_MOD_TIME": 1756578123419,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754989805000
       },
       "tttttttttt": {
         "sys_id": "f8f1d67d932b6210d5ec31697bba107a",
         "sys_updated_on": "2025-08-24 17:36:52",
         "SERVER_MOD_TIME": 1756075012000,
         "LOCAL_MOD_TIME": 1756578123695,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123695
+        "CURRENT_LOCAL_MOD_TIME": 1756578123695,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1756075012000
       },
       "qqqqqqqqq": {
         "sys_id": "cb111a79932b6210d5ec31697bba1079",
         "sys_updated_on": "2025-08-24 17:33:11",
         "SERVER_MOD_TIME": 1756074791000,
         "LOCAL_MOD_TIME": 1756578123902,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123902
+        "CURRENT_LOCAL_MOD_TIME": 1756578123902,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1756074791000
       },
       "getUserInfo": {
         "sys_id": "dc24a42c933ae250d5ec31697bba108a",
         "sys_updated_on": "2025-07-15 12:46:20",
         "SERVER_MOD_TIME": 1752601580000,
         "LOCAL_MOD_TIME": 1756578123913,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123913
+        "CURRENT_LOCAL_MOD_TIME": 1756578123913,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752601580000
       },
       "testttt": {
         "sys_id": "cab05e3d932b6210d5ec31697bba1040",
         "sys_updated_on": "2025-08-24 17:31:38",
         "SERVER_MOD_TIME": 1756074698000,
         "LOCAL_MOD_TIME": 1756578123977,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123977
+        "CURRENT_LOCAL_MOD_TIME": 1756578123977,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1756074698000
       },
       "thirdBase": {
         "sys_id": "b60f83fd932f6210d5ec31697bba10c8",
         "sys_updated_on": "2025-08-24 22:03:52",
         "SERVER_MOD_TIME": 1756091032000,
         "LOCAL_MOD_TIME": 1756578124132,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124132
+        "CURRENT_LOCAL_MOD_TIME": 1756578124132,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1756091032000
       },
       "PartnerFlowUtil": {
         "sys_id": "aa07efbe93faee50d5ec31697bba1052",
         "sys_updated_on": "2025-07-21 19:57:06",
         "SERVER_MOD_TIME": 1753145826000,
         "LOCAL_MOD_TIME": 1756578124360,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124360
+        "CURRENT_LOCAL_MOD_TIME": 1756578124360,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753145826000
       },
       "lllllllllll": {
         "sys_id": "a6635abd932b6210d5ec31697bba10a0",
         "sys_updated_on": "2025-08-24 17:43:15",
         "SERVER_MOD_TIME": 1756075395000,
         "LOCAL_MOD_TIME": 1756578124474,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124474
+        "CURRENT_LOCAL_MOD_TIME": 1756578124474,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1756075395000
       },
       "eeeeeeee": {
         "sys_id": "a1d55abd932b6210d5ec31697bba10aa",
         "sys_updated_on": "2025-08-24 17:53:49",
         "SERVER_MOD_TIME": 1756076029000,
         "LOCAL_MOD_TIME": 1756578124509,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124509
+        "CURRENT_LOCAL_MOD_TIME": 1756578124509,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1756076029000
       },
       "UniversityDataUtil": {
         "sys_id": "a28e777993d76a50d5ec31697bba10c3",
         "sys_updated_on": "2025-08-12 18:21:45",
         "SERVER_MOD_TIME": 1755040905000,
         "LOCAL_MOD_TIME": 1756578124544,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124544
+        "CURRENT_LOCAL_MOD_TIME": 1756578124544,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1755040905000
       },
       "rrrrrrrrrrrrrrr": {
         "sys_id": "8fc6d275936b6210d5ec31697bba10bd",
         "sys_updated_on": "2025-08-24 17:58:01",
         "SERVER_MOD_TIME": 1756076281000,
         "LOCAL_MOD_TIME": 1756578124739,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124739
+        "CURRENT_LOCAL_MOD_TIME": 1756578124739,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1756076281000
       },
       "zzzzzzzzzzzzz": {
         "sys_id": "75a79235936b6210d5ec31697bba107e",
         "sys_updated_on": "2025-08-24 18:01:45",
         "SERVER_MOD_TIME": 1756076505000,
         "LOCAL_MOD_TIME": 1756578124780,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124780
+        "CURRENT_LOCAL_MOD_TIME": 1756578124780,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1756076505000
       },
       "finaltest": {
         "sys_id": "64e89239936b6210d5ec31697bba1016",
         "sys_updated_on": "2025-08-24 18:07:11",
         "SERVER_MOD_TIME": 1756076831000,
         "LOCAL_MOD_TIME": 1756578125012,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125012
+        "CURRENT_LOCAL_MOD_TIME": 1756578125012,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1756076831000
       },
       "checkGroupMembership": {
         "sys_id": "55300b669376ae50d5ec31697bba109c",
         "sys_updated_on": "2025-07-22 15:40:29",
         "SERVER_MOD_TIME": 1753216829000,
         "LOCAL_MOD_TIME": 1756578125065,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125065
+        "CURRENT_LOCAL_MOD_TIME": 1756578125065,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753216829000
       }
     },
     "Scheduled Script Executions": {
@@ -437,7 +570,10 @@
         "sys_updated_on": "2025-07-15 14:01:35",
         "SERVER_MOD_TIME": 1752606095000,
         "LOCAL_MOD_TIME": 1756578125109,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125109
+        "CURRENT_LOCAL_MOD_TIME": 1756578125109,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752606095000
       }
     },
     "UI Actions": {
@@ -446,7 +582,10 @@
         "sys_updated_on": "2025-07-21 20:16:06",
         "SERVER_MOD_TIME": 1753146966000,
         "LOCAL_MOD_TIME": 1756578124626,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124626
+        "CURRENT_LOCAL_MOD_TIME": 1756578124626,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753146966000
       }
     }
   },
@@ -457,49 +596,97 @@
         "sys_updated_on": "2025-07-21 15:28:08",
         "SERVER_MOD_TIME": 1753129688000,
         "LOCAL_MOD_TIME": 1756578123448,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123448
+        "CURRENT_LOCAL_MOD_TIME": 1756578123448,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753129688000
       },
       "Requested By": {
         "sys_id": "faec8b7693dee290d5ec31697bba1037",
         "sys_updated_on": "2025-07-08 21:45:49",
         "SERVER_MOD_TIME": 1752029149000,
         "LOCAL_MOD_TIME": 1756578123573,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123573
+        "CURRENT_LOCAL_MOD_TIME": 1756578123573,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752029149000
       },
       "Requested For": {
         "sys_id": "e2887bd693e26a10d5ec31697bba109f",
         "sys_updated_on": "2025-07-07 21:20:21",
         "SERVER_MOD_TIME": 1751941221000,
         "LOCAL_MOD_TIME": 1756578123890,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123890
+        "CURRENT_LOCAL_MOD_TIME": 1756578123890,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1751941221000
       },
       "What is the name and email address of our main contact at the partner_": {
         "sys_id": "aed33932931ae290d5ec31697bba1037",
         "sys_updated_on": "2025-06-26 15:29:19",
         "SERVER_MOD_TIME": 1750969759000,
         "LOCAL_MOD_TIME": 1756578124256,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124256
+        "CURRENT_LOCAL_MOD_TIME": 1756578124256,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750969759000
       },
       "What is the full legal name of the partner_": {
         "sys_id": "aa933932931ae290d5ec31697bba1031",
         "sys_updated_on": "2025-06-26 21:15:52",
         "SERVER_MOD_TIME": 1750990552000,
         "LOCAL_MOD_TIME": 1756578124327,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124327
+        "CURRENT_LOCAL_MOD_TIME": 1756578124327,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750990552000
       },
       "Manager": {
         "sys_id": "6b6cc7f693dee290d5ec31697bba10d0",
         "sys_updated_on": "2025-07-08 21:43:53",
         "SERVER_MOD_TIME": 1752029033000,
         "LOCAL_MOD_TIME": 1756578124908,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124908
+        "CURRENT_LOCAL_MOD_TIME": 1756578124908,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752029033000
       },
       "Is this partner a university_": {
         "sys_id": "3d07908a935b6a50d5ec31697bba10fe",
         "sys_updated_on": "2025-08-12 17:18:21",
         "SERVER_MOD_TIME": 1755037101000,
         "LOCAL_MOD_TIME": 1756578125177,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125177
+        "CURRENT_LOCAL_MOD_TIME": 1756578125177,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1755037101000
+      },
+      "In one or two sentences, what services will this partner provide_": {
+        "sys_id": "71f2fdbe93d6e290d5ec31697bba10bc",
+        "LIVE": false,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750969796000,
+        "sys_updated_on": "2025-06-26 15:29:56",
+        "SERVER_MOD_TIME": 1750969796000,
+        "LOCAL_MOD_TIME": 1758285162812
+      },
+      "Will this partner handle, store, or have access to sensitive company or client data (like patient information, financial records, or source code)_": {
+        "sys_id": "9442b9be93d6e290d5ec31697bba10ce",
+        "LIVE": false,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750969827000,
+        "sys_updated_on": "2025-06-26 15:30:27",
+        "SERVER_MOD_TIME": 1750969827000,
+        "LOCAL_MOD_TIME": 1758285162832
+      },
+      "Why do we need this partner_ (e.g., what project is this for, what problem does it solve_)": {
+        "sys_id": "e0047172931ae290d5ec31697bba1008",
+        "LIVE": false,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750969808000,
+        "sys_updated_on": "2025-06-26 15:30:08",
+        "SERVER_MOD_TIME": 1750969808000,
+        "LOCAL_MOD_TIME": 1758285162774
       }
     },
     "Dictionary Entries": {
@@ -508,224 +695,320 @@
         "sys_updated_on": "2025-07-07 21:17:56",
         "SERVER_MOD_TIME": 1751941076000,
         "LOCAL_MOD_TIME": 1756578123614,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123614
+        "CURRENT_LOCAL_MOD_TIME": 1756578123614,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1751941076000
       },
       "Date Diff": {
         "sys_id": "f4ff8e79932b6210d5ec31697bba10a3",
         "sys_updated_on": "2025-07-17 16:36:36",
         "SERVER_MOD_TIME": 1752788196000,
         "LOCAL_MOD_TIME": 1756578123710,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123710
+        "CURRENT_LOCAL_MOD_TIME": 1756578123710,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752788196000
       },
       "Assignment Group": {
         "sys_id": "e8ff4e79932b6210d5ec31697bba10d7",
         "sys_updated_on": "2025-08-09 19:57:00",
         "SERVER_MOD_TIME": 1754787420000,
         "LOCAL_MOD_TIME": 1756578123791,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123791
+        "CURRENT_LOCAL_MOD_TIME": 1756578123791,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754787420000
       },
       "Description of Services_e5ff02b9932b6210d5ec31697bba10f5": {
         "sys_id": "e5ff02b9932b6210d5ec31697bba10f5",
         "sys_updated_on": "2025-07-14 20:28:29",
         "SERVER_MOD_TIME": 1752542909000,
         "LOCAL_MOD_TIME": 1756578123806,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123806
+        "CURRENT_LOCAL_MOD_TIME": 1756578123806,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752542909000
       },
       "Task Type": {
         "sys_id": "e4ff4e79932b6210d5ec31697bba10d6",
         "sys_updated_on": "2025-08-09 19:55:09",
         "SERVER_MOD_TIME": 1754787309000,
         "LOCAL_MOD_TIME": 1756578123816,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123816
+        "CURRENT_LOCAL_MOD_TIME": 1756578123816,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754787309000
       },
       "Conditional Field": {
         "sys_id": "e0ff4e79932b6210d5ec31697bba10d5",
         "sys_updated_on": "2025-08-09 20:37:16",
         "SERVER_MOD_TIME": 1754789836000,
         "LOCAL_MOD_TIME": 1756578123873,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123873
+        "CURRENT_LOCAL_MOD_TIME": 1756578123873,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754789836000
       },
       "Task Config": {
         "sys_id": "b8ff8e79932b6210d5ec31697bba10db",
         "sys_updated_on": "2025-08-12 17:57:23",
         "SERVER_MOD_TIME": 1755039443000,
         "LOCAL_MOD_TIME": 1756578124056,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124056
+        "CURRENT_LOCAL_MOD_TIME": 1756578124056,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1755039443000
       },
       "Partner full legal name_b0ff8e79932b6210d5ec31697bba1079": {
         "sys_id": "b0ff8e79932b6210d5ec31697bba1079",
         "sys_updated_on": "2025-06-26 13:42:54",
         "SERVER_MOD_TIME": 1750963374000,
         "LOCAL_MOD_TIME": 1756578124300,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124300
+        "CURRENT_LOCAL_MOD_TIME": 1756578124300,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750963374000
       },
       "Partner full legal name": {
         "sys_id": "adff02b9932b6210d5ec31697bba109b",
         "sys_updated_on": "2025-07-14 20:28:28",
         "SERVER_MOD_TIME": 1752542908000,
         "LOCAL_MOD_TIME": 1756578124344,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124344
+        "CURRENT_LOCAL_MOD_TIME": 1756578124344,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752542908000
       },
       "Partner Onboarding Request": {
         "sys_id": "a9ff42b9932b6210d5ec31697bba1010",
         "sys_updated_on": "2025-08-24 17:28:05",
         "SERVER_MOD_TIME": 1756074485000,
         "LOCAL_MOD_TIME": 1756578124379,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124379
+        "CURRENT_LOCAL_MOD_TIME": 1756578124379,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1756074485000
       },
       "Sensitive Data Access_a9ff02b9932b6210d5ec31697bba10ce": {
         "sys_id": "a9ff02b9932b6210d5ec31697bba10ce",
         "sys_updated_on": "2025-07-14 20:28:29",
         "SERVER_MOD_TIME": 1752542909000,
         "LOCAL_MOD_TIME": 1756578124403,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124403
+        "CURRENT_LOCAL_MOD_TIME": 1756578124403,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752542909000
       },
       "Requested By": {
         "sys_id": "a5ff42b9932b6210d5ec31697bba1002",
         "sys_updated_on": "2025-07-07 21:17:35",
         "SERVER_MOD_TIME": 1751941055000,
         "LOCAL_MOD_TIME": 1756578124459,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124459
+        "CURRENT_LOCAL_MOD_TIME": 1756578124459,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1751941055000
       },
       "x_1118046_partne_0_requests": {
         "sys_id": "9cff4e79932b6210d5ec31697bba107a",
         "sys_updated_on": "2025-06-26 15:05:00",
         "SERVER_MOD_TIME": 1750968300000,
         "LOCAL_MOD_TIME": 1756578124591,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124591
+        "CURRENT_LOCAL_MOD_TIME": 1756578124591,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750968300000
       },
       "Manager": {
         "sys_id": "78ff8e79932b6210d5ec31697bba104f",
         "sys_updated_on": "2025-07-07 21:42:51",
         "SERVER_MOD_TIME": 1751942571000,
         "LOCAL_MOD_TIME": 1756578124720,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124720
+        "CURRENT_LOCAL_MOD_TIME": 1756578124720,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1751942571000
       },
       "Partner contact information_78ff8e79932b6210d5ec31697bba106a": {
         "sys_id": "78ff8e79932b6210d5ec31697bba106a",
         "sys_updated_on": "2025-06-26 13:43:02",
         "SERVER_MOD_TIME": 1750963382000,
         "LOCAL_MOD_TIME": 1756578124765,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124765
+        "CURRENT_LOCAL_MOD_TIME": 1756578124765,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750963382000
       },
       "Stage_70ff8e79932b6210d5ec31697bba10cd": {
         "sys_id": "70ff8e79932b6210d5ec31697bba10cd",
         "sys_updated_on": "2025-07-11 03:01:16",
         "SERVER_MOD_TIME": 1752220876000,
         "LOCAL_MOD_TIME": 1756578124858,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124858
+        "CURRENT_LOCAL_MOD_TIME": 1756578124858,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752220876000
       },
       "Sensitive data access": {
         "sys_id": "70ff8e79932b6210d5ec31697bba10b2",
         "sys_updated_on": "2025-06-26 13:44:11",
         "SERVER_MOD_TIME": 1750963451000,
         "LOCAL_MOD_TIME": 1756578124869,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124869
+        "CURRENT_LOCAL_MOD_TIME": 1756578124869,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750963451000
       },
       "Stage": {
         "sys_id": "6cff4e79932b6210d5ec31697bba10d3",
         "sys_updated_on": "2025-08-09 20:06:52",
         "SERVER_MOD_TIME": 1754788012000,
         "LOCAL_MOD_TIME": 1756578124885,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124885
+        "CURRENT_LOCAL_MOD_TIME": 1756578124885,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754788012000
       },
       "x_1118046_partne_0_task_config": {
         "sys_id": "6cff4e79932b6210d5ec31697bba10ca",
         "sys_updated_on": "2025-08-09 19:54:39",
         "SERVER_MOD_TIME": 1754787279000,
         "LOCAL_MOD_TIME": 1756578124898,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124898
+        "CURRENT_LOCAL_MOD_TIME": 1756578124898,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754787279000
       },
       "x_1118046_partne_0_tasks": {
         "sys_id": "68ff8e79932b6210d5ec31697bba1016",
         "sys_updated_on": "2025-06-26 16:14:58",
         "SERVER_MOD_TIME": 1750972498000,
         "LOCAL_MOD_TIME": 1756578124980,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124980
+        "CURRENT_LOCAL_MOD_TIME": 1756578124980,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750972498000
       },
       "University Name": {
         "sys_id": "69ff02b9932b6210d5ec31697bba10db",
         "sys_updated_on": "2025-08-12 16:25:29",
         "SERVER_MOD_TIME": 1755033929000,
         "LOCAL_MOD_TIME": 1756578124993,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124993
+        "CURRENT_LOCAL_MOD_TIME": 1756578124993,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1755033929000
       },
       "Business justification_60ff8e79932b6210d5ec31697bba1033": {
         "sys_id": "60ff8e79932b6210d5ec31697bba1033",
         "sys_updated_on": "2025-06-26 13:43:31",
         "SERVER_MOD_TIME": 1750963411000,
         "LOCAL_MOD_TIME": 1756578125080,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125080
+        "CURRENT_LOCAL_MOD_TIME": 1756578125080,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750963411000
       },
       "Requested For_59ff02b9932b6210d5ec31697bba108f": {
         "sys_id": "59ff02b9932b6210d5ec31697bba108f",
         "sys_updated_on": "2025-07-14 20:28:28",
         "SERVER_MOD_TIME": 1752542908000,
         "LOCAL_MOD_TIME": 1756578125093,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125093
+        "CURRENT_LOCAL_MOD_TIME": 1756578125093,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752542908000
       },
       "University": {
         "sys_id": "3cff8e79932b6210d5ec31697bba10f5",
         "sys_updated_on": "2025-08-12 17:26:54",
         "SERVER_MOD_TIME": 1755037614000,
         "LOCAL_MOD_TIME": 1756578125286,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125286
+        "CURRENT_LOCAL_MOD_TIME": 1756578125286,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1755037614000
       },
       "Requested For": {
         "sys_id": "34ff8e79932b6210d5ec31697bba1096",
         "sys_updated_on": "2025-07-11 03:22:32",
         "SERVER_MOD_TIME": 1752222152000,
         "LOCAL_MOD_TIME": 1756578125377,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125377
+        "CURRENT_LOCAL_MOD_TIME": 1756578125377,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752222152000
       },
       "Order": {
         "sys_id": "2cff4e79932b6210d5ec31697bba10ce",
         "sys_updated_on": "2025-08-09 19:57:28",
         "SERVER_MOD_TIME": 1754787448000,
         "LOCAL_MOD_TIME": 1756578125394,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125394
+        "CURRENT_LOCAL_MOD_TIME": 1756578125394,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754787448000
       },
       "Short Description": {
         "sys_id": "28ff4e79932b6210d5ec31697bba10d2",
         "sys_updated_on": "2025-08-09 19:57:20",
         "SERVER_MOD_TIME": 1754787440000,
         "LOCAL_MOD_TIME": 1756578125444,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125444
+        "CURRENT_LOCAL_MOD_TIME": 1756578125444,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754787440000
       },
       "Partner Contact Information": {
         "sys_id": "25ff02b9932b6210d5ec31697bba10b5",
         "sys_updated_on": "2025-07-14 20:28:28",
         "SERVER_MOD_TIME": 1752542908000,
         "LOCAL_MOD_TIME": 1756578125461,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125461
+        "CURRENT_LOCAL_MOD_TIME": 1756578125461,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752542908000
       },
       "Active": {
         "sys_id": "24ff4e79932b6210d5ec31697bba10d1",
         "sys_updated_on": "2025-08-09 19:57:52",
         "SERVER_MOD_TIME": 1754787472000,
         "LOCAL_MOD_TIME": 1756578125479,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125479
+        "CURRENT_LOCAL_MOD_TIME": 1756578125479,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754787472000
       },
       "Description of services": {
         "sys_id": "20ff8e79932b6210d5ec31697bba1041",
         "sys_updated_on": "2025-06-26 13:42:37",
         "SERVER_MOD_TIME": 1750963357000,
         "LOCAL_MOD_TIME": 1756578125494,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125494
+        "CURRENT_LOCAL_MOD_TIME": 1756578125494,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750963357000
       },
       "Business Justification": {
         "sys_id": "29ff02b9932b6210d5ec31697bba10e8",
         "sys_updated_on": "2025-07-14 20:28:29",
         "SERVER_MOD_TIME": 1752542909000,
         "LOCAL_MOD_TIME": 1756578125506,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125506
+        "CURRENT_LOCAL_MOD_TIME": 1756578125506,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752542909000
       },
       "Condition": {
         "sys_id": "20ff4e79932b6210d5ec31697bba10d0",
         "sys_updated_on": "2025-08-09 20:36:55",
         "SERVER_MOD_TIME": 1754789815000,
         "LOCAL_MOD_TIME": 1756578125548,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125548
+        "CURRENT_LOCAL_MOD_TIME": 1756578125548,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754789815000
       }
     },
     "Field Maps": {
@@ -734,42 +1017,60 @@
         "sys_updated_on": "2025-08-11 16:21:28",
         "SERVER_MOD_TIME": 1754947288000,
         "LOCAL_MOD_TIME": 1756578123566,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123566
+        "CURRENT_LOCAL_MOD_TIME": 1756578123566,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754947288000
       },
       "u_number": {
         "sys_id": "fa04c3e593dfe650d5ec31697bba10a7",
         "sys_updated_on": "2025-08-11 16:21:28",
         "SERVER_MOD_TIME": 1754947288000,
         "LOCAL_MOD_TIME": 1756578123670,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123670
+        "CURRENT_LOCAL_MOD_TIME": 1756578123670,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754947288000
       },
       "u_partner_full_legal_name": {
         "sys_id": "b604c3e593dfe650d5ec31697bba10ae",
         "sys_updated_on": "2025-08-11 16:21:28",
         "SERVER_MOD_TIME": 1754947288000,
         "LOCAL_MOD_TIME": 1756578124159,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124159
+        "CURRENT_LOCAL_MOD_TIME": 1756578124159,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754947288000
       },
       "u_description_of_services": {
         "sys_id": "7e04c3e593dfe650d5ec31697bba10ab",
         "sys_updated_on": "2025-08-11 16:21:28",
         "SERVER_MOD_TIME": 1754947288000,
         "LOCAL_MOD_TIME": 1756578124700,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124700
+        "CURRENT_LOCAL_MOD_TIME": 1756578124700,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754947288000
       },
       "u_sys_id": {
         "sys_id": "7204c3e593dfe650d5ec31697bba10b6",
         "sys_updated_on": "2025-08-11 16:21:28",
         "SERVER_MOD_TIME": 1754947288000,
         "LOCAL_MOD_TIME": 1756578124792,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124792
+        "CURRENT_LOCAL_MOD_TIME": 1756578124792,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754947288000
       },
       "u_partner_contact_information": {
         "sys_id": "3a04c3e593dfe650d5ec31697bba10b3",
         "sys_updated_on": "2025-08-11 16:21:28",
         "SERVER_MOD_TIME": 1754947288000,
         "LOCAL_MOD_TIME": 1756578125301,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125301
+        "CURRENT_LOCAL_MOD_TIME": 1756578125301,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754947288000
       }
     },
     "Transform Scripts": {
@@ -778,7 +1079,10 @@
         "sys_updated_on": "2025-08-11 16:21:28",
         "SERVER_MOD_TIME": 1754947288000,
         "LOCAL_MOD_TIME": 1756578123626,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123626
+        "CURRENT_LOCAL_MOD_TIME": 1756578123626,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754947288000
       }
     }
   },
@@ -789,28 +1093,40 @@
         "sys_updated_on": "2025-07-24 17:29:30",
         "SERVER_MOD_TIME": 1753396170000,
         "LOCAL_MOD_TIME": 1756578123471,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123471
+        "CURRENT_LOCAL_MOD_TIME": 1756578123471,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753396170000
       },
       "Partner Task Email Assigned Tasks": {
         "sys_id": "f22447c8930f6690d5ec31697bba109c",
         "sys_updated_on": "2025-07-25 14:42:25",
         "SERVER_MOD_TIME": 1753472545000,
         "LOCAL_MOD_TIME": 1756578123767,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123767
+        "CURRENT_LOCAL_MOD_TIME": 1756578123767,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753472545000
       },
       "Partner Task Email Work Notes": {
         "sys_id": "a39d92ba93dae290d5ec31697bba1090",
         "sys_updated_on": "2025-07-25 14:14:20",
         "SERVER_MOD_TIME": 1753470860000,
         "LOCAL_MOD_TIME": 1756578124488,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124488
+        "CURRENT_LOCAL_MOD_TIME": 1756578124488,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753470860000
       },
       "POR Approval Request": {
         "sys_id": "3b2dc6bb93f22690d5ec31697bba10a1",
         "sys_updated_on": "2025-07-25 14:09:07",
         "SERVER_MOD_TIME": 1753470547000,
         "LOCAL_MOD_TIME": 1756578125347,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125347
+        "CURRENT_LOCAL_MOD_TIME": 1756578125347,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753470547000
       }
     },
     "Notifications": {
@@ -819,70 +1135,100 @@
         "sys_updated_on": "2025-07-24 15:43:05",
         "SERVER_MOD_TIME": 1753389785000,
         "LOCAL_MOD_TIME": 1756578123495,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123495
+        "CURRENT_LOCAL_MOD_TIME": 1756578123495,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753389785000
       },
       "POR request incomplete": {
         "sys_id": "1c3ae0e293e66a10d5ec31697bba1089",
         "sys_updated_on": "2025-07-08 22:09:30",
         "SERVER_MOD_TIME": 1752030570000,
         "LOCAL_MOD_TIME": 1756578123507,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123507
+        "CURRENT_LOCAL_MOD_TIME": 1756578123507,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752030570000
       },
       "Email assigned to group (partner task)": {
         "sys_id": "ed2c16b693dae290d5ec31697bba104d",
         "sys_updated_on": "2025-07-25 14:18:01",
         "SERVER_MOD_TIME": 1753471081000,
         "LOCAL_MOD_TIME": 1756578123738,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123738
+        "CURRENT_LOCAL_MOD_TIME": 1756578123738,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753471081000
       },
       "POR request rejected": {
         "sys_id": "dd64ec2293e66a10d5ec31697bba10b1",
         "sys_updated_on": "2025-07-08 22:53:45",
         "SERVER_MOD_TIME": 1752033225000,
         "LOCAL_MOD_TIME": 1756578123876,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123876
+        "CURRENT_LOCAL_MOD_TIME": 1756578123876,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752033225000
       },
       "Partner task worknoted (unassigned)": {
         "sys_id": "c191aebe93dae290d5ec31697bba107c",
         "sys_updated_on": "2025-07-25 14:09:53",
         "SERVER_MOD_TIME": 1753470593000,
         "LOCAL_MOD_TIME": 1756578124010,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124010
+        "CURRENT_LOCAL_MOD_TIME": 1756578124010,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753470593000
       },
       "POR request approved": {
         "sys_id": "b6e568a293e66a10d5ec31697bba10cc",
         "sys_updated_on": "2025-07-08 22:07:10",
         "SERVER_MOD_TIME": 1752030430000,
         "LOCAL_MOD_TIME": 1756578124099,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124099
+        "CURRENT_LOCAL_MOD_TIME": 1756578124099,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752030430000
       },
       "Partner task worknoted (to assignee)": {
         "sys_id": "94316abe93dae290d5ec31697bba1037",
         "sys_updated_on": "2025-06-26 17:59:42",
         "SERVER_MOD_TIME": 1750978782000,
         "LOCAL_MOD_TIME": 1756578124563,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124563
+        "CURRENT_LOCAL_MOD_TIME": 1756578124563,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1750978782000
       },
       "Email assigned to (partner task)": {
         "sys_id": "91806a7e93dae290d5ec31697bba10a9",
         "sys_updated_on": "2025-07-25 14:49:34",
         "SERVER_MOD_TIME": 1753472974000,
         "LOCAL_MOD_TIME": 1756578124610,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124610
+        "CURRENT_LOCAL_MOD_TIME": 1756578124610,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753472974000
       },
       "POR request was opened": {
         "sys_id": "4d12ac6e93a66a10d5ec31697bba10dc",
         "sys_updated_on": "2025-07-08 22:08:54",
         "SERVER_MOD_TIME": 1752030534000,
         "LOCAL_MOD_TIME": 1756578125122,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125122
+        "CURRENT_LOCAL_MOD_TIME": 1756578125122,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752030534000
       },
       "POR request completed": {
         "sys_id": "3b37ace293e66a10d5ec31697bba104c",
         "sys_updated_on": "2025-07-08 22:09:10",
         "SERVER_MOD_TIME": 1752030550000,
         "LOCAL_MOD_TIME": 1756578125321,
-        "CURRENT_LOCAL_MOD_TIME": 1756578125321
+        "CURRENT_LOCAL_MOD_TIME": 1756578125321,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752030550000
       }
     },
     "Email Scripts": {
@@ -891,7 +1237,10 @@
         "sys_updated_on": "2025-07-24 16:47:14",
         "SERVER_MOD_TIME": 1753393634000,
         "LOCAL_MOD_TIME": 1756578124679,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124679
+        "CURRENT_LOCAL_MOD_TIME": 1756578124679,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753393634000
       }
     }
   },
@@ -902,32 +1251,72 @@
         "sys_updated_on": "2025-07-20 23:20:07",
         "SERVER_MOD_TIME": 1753071607000,
         "LOCAL_MOD_TIME": 1756578124084,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124084
+        "CURRENT_LOCAL_MOD_TIME": 1756578124084,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753071607000
       },
       "Show error on Change without manager": {
         "sys_id": "867ecbba93dee290d5ec31697bba104e",
         "sys_updated_on": "2025-07-08 21:29:09",
         "SERVER_MOD_TIME": 1752028149000,
         "LOCAL_MOD_TIME": 1756578124640,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124640
+        "CURRENT_LOCAL_MOD_TIME": 1756578124640,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752028149000
+      },
+      "Reset manager, then hide if usr exempt": {
+        "sys_id": "2d617022932a6a10d5ec31697bba104f",
+        "LIVE": false,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753129766000,
+        "sys_updated_on": "2025-07-21 15:29:26",
+        "SERVER_MOD_TIME": 1753129766000,
+        "LOCAL_MOD_TIME": 1758285162852
+      },
+      "onLoad, hide manager if is user exempt": {
+        "sys_id": "4680d7ea93b6ae50d5ec31697bba1025",
+        "LIVE": false,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1753133964000,
+        "sys_updated_on": "2025-07-21 16:39:24",
+        "SERVER_MOD_TIME": 1753133964000,
+        "LOCAL_MOD_TIME": 1758285162795
       }
     },
     "Record Producers": {
       "Partner Onboarding Request": {
-        "sys_id": "cab0b53e93d6e290d5ec31697bba10fc"
+        "sys_id": "cab0b53e93d6e290d5ec31697bba10fc",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1756578123142,
+        "CURRENT_SERVER_MOD_TIME": 1755037101000
       }
     }
   },
   "Data Model": {
     "Tables": {
       "Task Config": {
-        "sys_id": "a581e9c193136650d5ec31697bba1061"
+        "sys_id": "a581e9c193136650d5ec31697bba1061",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1756578123142,
+        "CURRENT_SERVER_MOD_TIME": 1754787278000
       },
       "Tasks": {
-        "sys_id": "ba3b31fa931ae290d5ec31697bba1037"
+        "sys_id": "ba3b31fa931ae290d5ec31697bba1037",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1756578123142,
+        "CURRENT_SERVER_MOD_TIME": 1752394493000
       },
       "Requests": {
-        "sys_id": "cfa5e97e9396e290d5ec31697bba10f2"
+        "sys_id": "cfa5e97e9396e290d5ec31697bba10f2",
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_LOCAL_MOD_TIME": 1756578123142,
+        "CURRENT_SERVER_MOD_TIME": 1750963239000
       }
     }
   },
@@ -938,7 +1327,10 @@
         "sys_updated_on": "2025-07-18 02:32:44",
         "SERVER_MOD_TIME": 1752823964000,
         "LOCAL_MOD_TIME": 1756578124310,
-        "CURRENT_LOCAL_MOD_TIME": 1756578124310
+        "CURRENT_LOCAL_MOD_TIME": 1756578124310,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1752823964000
       }
     }
   },
@@ -949,7 +1341,21 @@
         "sys_updated_on": "2025-08-11 16:21:28",
         "SERVER_MOD_TIME": 1754947288000,
         "LOCAL_MOD_TIME": 1756578123650,
-        "CURRENT_LOCAL_MOD_TIME": 1756578123650
+        "CURRENT_LOCAL_MOD_TIME": 1756578123650,
+        "LIVE": true,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1754947288000
+      }
+    },
+    "Scripted REST Resources": {
+      "request_status": {
+        "sys_id": "b5e67d5593c03e10d5ec31697bba1009",
+        "LIVE": false,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1758169181000,
+        "sys_updated_on": "2025-09-17 23:19:41",
+        "SERVER_MOD_TIME": 1758169181000,
+        "LOCAL_MOD_TIME": 1758285162870
       }
     }
   }
